@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.study.my_springboot.mapper.AccountMapper">
+    <select id="getAllAccountList" resultType="com.study.my_springboot.entity.Account">
+        SELECT * FROM t_account
+    </select>
+    <update id="addMoney">
+        update t_account set money = money + #{money} where name = #{inName}
+    </update>
+
+    <update id="deleteMoney">
+        update t_account set money = money - #{money} where name = #{outName}
+    </update>
+</mapper>

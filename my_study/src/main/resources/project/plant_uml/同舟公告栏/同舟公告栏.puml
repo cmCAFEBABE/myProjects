@@ -1,0 +1,6 @@
+@startuml
+Dschedule -> MS: 每10分钟检查一次预发布公告
+WEB -> MS:RPC:查询公告
+MS -> WEB:公告详情
+MS ->DB:公告的发布、修改、下线
+@enduml

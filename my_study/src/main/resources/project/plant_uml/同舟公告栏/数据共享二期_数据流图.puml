@@ -1,0 +1,8 @@
+@startuml
+web -> api: get data
+api -> sci_axon: get data
+sci_axon -> ras: get data
+ras -> sci_axon:response
+sci_axon -> api:response
+api -> web: response
+@enduml
