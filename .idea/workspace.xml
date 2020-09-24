@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07119a95-d2ee-4663-8111-0f818411fac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/generate/Generate_mySpringBoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/resources/application.property" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/resources/generate/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/generate/Generate_mySpringBoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/java/reflect/Bar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/java/reflect/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/java/reflect/TestReflect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/java/test/enums/DataShareSkuPermEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_数据流图2.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/cm_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/cm_utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExternalWarehousePackageErrorRateDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExternalWarehousePackageErrorRateDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExcelTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExcelTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExternalWarehousePackageErrorRateDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExternalWarehousePackageErrorRateDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/my_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/my_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/my_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/my_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/test/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/my_springboot/target/" />
     <ignored path="$PROJECT_DIR$/my_study/target/" />
@@ -51,18 +28,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/generate/Generate_mySpringBoot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -77,7 +42,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/generate/Generate_mySpringBoot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="493">
               <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,8 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar!/org/mybatis/generator/internal/JDBCConnectionFactory.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="217">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar!/org/mybatis/generator/config/Context.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="280" column="16" selection-start-line="280" selection-start-column="16" selection-end-line="280" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -101,37 +75,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/ehcache/ehcache/3.8.1/ehcache-3.8.1.jar!/org/ehcache/xml/ConfigurationParser.class">
+        <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+            <state relative-caret-position="313">
+              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/my_springboot/target/classes/mapper/PermMapper.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="88" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_springboot/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <caret line="6" column="88" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -151,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@Nullable</find>
       <find>@</find>
       <find>DefaultTempFileCreationStrategy</find>
       <find>common</find>
@@ -181,6 +146,7 @@
       <find>reds</find>
       <find>mysql</find>
       <find>ge</find>
+      <find>TB_YX_SCI_PERM</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -353,25 +319,7 @@
               <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -455,6 +403,16 @@
               <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -465,6 +423,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="generate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -518,7 +506,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600953865906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600954715367" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -678,7 +666,7 @@
       <workItem from="1599445176756" duration="24803000" />
       <workItem from="1600069984719" duration="16280000" />
       <workItem from="1600308134428" duration="10913000" />
-      <workItem from="1600827690155" duration="16169000" />
+      <workItem from="1600827690155" duration="16928000" />
     </task>
     <servers />
   </component>
@@ -715,7 +703,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202039000" />
+    <option name="totallyTimeSpent" value="202798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1792" height="1024" extended-state="0" />
@@ -730,8 +718,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" weight="0.38304722" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2832618" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" visible="true" weight="0.38304722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2832618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -747,7 +735,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24971429" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.27371427" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.14685714" />
       <window_info anchor="right" id="PlantUML" order="4" weight="0.3297143" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -771,12 +759,6 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar!/org/mybatis/generator/internal/JDBCConnectionFactory.class</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -794,13 +776,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/collection/CollectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mystudy/test/transaction/TransactionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -812,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/my_study/src/main/resources/test/txt1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/my_study/src/main/java/redis/JedisConnection.java">
@@ -1058,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar!/org/mybatis/generator/config/Context.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cm_utils/src/main/resources/application.property">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1085,16 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="108" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,30 +1080,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar!/org/mybatis/generator/internal/JDBCConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="88" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="88" />
+          <caret line="6" column="88" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="88" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="108" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar!/org/mybatis/generator/internal/JDBCConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/generator/mybatis-generator-core/1.4.0/mybatis-generator-core-1.4.0.jar!/org/mybatis/generator/config/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="280" column="16" selection-start-line="280" selection-start-column="16" selection-end-line="280" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/target/classes/mapper/PermMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="313">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/generate/Generate_mySpringBoot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="493">
           <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
