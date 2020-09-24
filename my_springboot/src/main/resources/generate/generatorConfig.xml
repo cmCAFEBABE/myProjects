@@ -12,9 +12,9 @@
         <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
         <jdbcConnection
                 driverClass="com.mysql.jdbc.Driver"
-                connectionURL="jdbc:mysql://124.70.151.153:3306/myStudyDB?characterEncoding=utf-8&amp;useSSL=false"
-                userId="root"
-                password="19950808">
+                connectionURL="${jdbc.connection.url}"
+                userId="${jdbc.username}"
+                password="${jdbc.password}">
         </jdbcConnection>
         <!-- targetProject:生成PO类的位置 -->
         <javaModelGenerator targetPackage="com.study.my_springboot.bean.pojo"

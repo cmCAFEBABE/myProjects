@@ -13,9 +13,11 @@ import org.mybatis.generator.internal.DefaultShellCallback;
 
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Properties;
 
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
@@ -32,7 +34,10 @@ public class Generate_mySpringBoot {
         boolean overwrite = true;
         //指定 逆向工程配置文件
         File configFile = new File(CONFIG_PATH+"generate/generatorConfig.xml");
-        ConfigurationParser cp = new ConfigurationParser(warnings);
+        FileInputStream fileInputStream = new FileInputStream(CONFIG_PATH + "generate/generatorConfig.properties");
+        Properties properties = new Properties();
+        properties.load(fileInputStream);
+        ConfigurationParser cp = new ConfigurationParser(properties, warnings);
         Configuration config = cp.parseConfiguration(configFile);
         DefaultShellCallback callback = new DefaultShellCallback(overwrite);
         MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
