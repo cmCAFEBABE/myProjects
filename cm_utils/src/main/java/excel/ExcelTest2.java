@@ -7,14 +7,20 @@
 package excel;
 
 import com.alibaba.excel.EasyExcel;
+import com.alibaba.excel.EasyExcelFactory;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.enums.WriteDirectionEnum;
+import com.alibaba.excel.metadata.Sheet;
+import com.alibaba.excel.metadata.Table;
 import com.alibaba.excel.write.metadata.WriteSheet;
 import com.alibaba.excel.write.metadata.fill.FillConfig;
 import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
 import excel.handle.CustomCellWriteHandle;
 import org.junit.Test;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -144,6 +150,23 @@ public class ExcelTest2 {
         return list;
     }
 
+
+    /**
+     * 动态生成Excel 列
+     */
+    @Test
+    public void dynamicRowExcel(){
+
+        String fileName = path + "simpleWrite" + System.currentTimeMillis() + ".xlsx";
+        // 这里 需要指定写用哪个class去写，然后写到第一个sheet，名字为模板 然后文件流会自动关闭
+        // 如果这里想使用03 则 传入excelType参数即可
+        EasyExcel.write(fileName, ExternalWarehousePackageErrorRateDetail.class)
+                .excludeColumnFiledNames(Sets.newHashSet("workOrderName"))
+                .registerWriteHandler(new CustomCellWriteHandle())
+                .sheet("模板")
+                .doWrite(getData2());
+    }
+
     /**
      * 竖向填充 最基本excel
      */
@@ -209,7 +232,7 @@ public class ExcelTest2 {
 
 
     @Test
-    public void testGetMulSheetExcel(){
+    public void testGetMulSheetExcel() {
         String fileName = path + "muiSheet" + System.currentTimeMillis() + ".xlsx";
         List<MulSheetVo> mulSheetVos = Lists.newArrayList();
         MulSheetVo mulSheetVo = new MulSheetVo();
@@ -224,10 +247,12 @@ public class ExcelTest2 {
         mulSheetVo2.setClazz(ExternalWarehousePackageErrorRateDetail.class);
         mulSheetVo2.setData(getData2());
 
-        getMulSheetExcel(fileName,mulSheetVos);
+        getMulSheetExcel(fileName, mulSheetVos);
     }
+
     /**
      * 多sheet生成 封装方法
+     *
      * @param fileName
      * @param mulSheetVo
      */
@@ -237,7 +262,7 @@ public class ExcelTest2 {
             // 这里 指定文件
             excelWriter = EasyExcel.write(fileName).build();
             for (int i = 0; i < mulSheetVo.size(); i++) {
-                WriteSheet writeSheet = EasyExcel.writerSheet(i,mulSheetVo.get(i).getSheetName()).head(mulSheetVo.get(i).getClazz()).build();
+                WriteSheet writeSheet = EasyExcel.writerSheet(i, mulSheetVo.get(i).getSheetName()).head(mulSheetVo.get(i).getClazz()).build();
                 excelWriter.write(mulSheetVo.get(i).getData(), writeSheet);
             }
 
@@ -249,6 +274,132 @@ public class ExcelTest2 {
         }
     }
 
+
+    @Test
+    public void testDynamicRowExcel() {
+
+        // 文件输出位置R
+        String outPath = path + "/testDynamicRowExcel" + System.currentTimeMillis() + ".xlsx";
+
+        try {
+            // 所有行的集合
+            List<List<Object>> list = new ArrayList<List<Object>>();
+
+            for (int i = 1; i <= 10; i++) {
+                // 第 n 行的数据
+                List<Object> row = new ArrayList<Object>();
+                row.add("第" + i + "单元格");
+                row.add("第" + i + "单元格");
+                list.add(row);
+            }
+
+            ExcelWriter excelWriter = EasyExcelFactory.getWriter(new FileOutputStream(outPath));
+            // 表单
+            Sheet sheet = new Sheet(1, 0);
+            sheet.setSheetName("第一个Sheet");
+            // 创建一个表格
+            Table table = new Table(1);
+            // 动态添加 表头 headList --> 所有表头行集合
+            List<List<String>> headList = new ArrayList<List<String>>();
+            // 第 n 行 的表头
+            List<String> headTitle0 = new ArrayList<String>();
+            List<String> headTitle1 = new ArrayList<String>();
+            List<String> headTitle2 = new ArrayList<String>();
+            headTitle0.add("最顶部-1");
+            headTitle0.add("标题1");
+            headTitle1.add("最顶部-1");
+            headTitle1.add("标题2");
+            headTitle2.add("最顶部-1");
+            headTitle2.add("标题3");
+
+            headList.add(headTitle0);
+            headList.add(headTitle1);
+            headList.add(headTitle2);
+            table.setHead(headList);
+
+            excelWriter.write1(list, sheet, table);
+            // 记得 释放资源
+            excelWriter.finish();
+            System.out.println("ok");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
+//    /**
+//     * 动态列实现代码，方案：通过获取easyexcel内的writeContext剔除不需要的字段列
+//     **/
+//    public static ExcelWriter modifyWriter(ExcelWriter writer, Sheet sheetParam, List noExportFields) throws
+//            NoSuchFieldException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
+//        if (null == noExportFields || noExportFields.isEmpty()) {
+//            return writer;
+//        }
+//// 将不需要导出的字段名转成Sst集合
+//        Set noExportFieldsSet = new HashSet(noExportFields);
+////
+//        Field excelBuilderField = writer.getClass().getDeclaredField("excelBuilder");
+//        excelBuilderField.setAccessible(true);
+//        ExcelBuilderImpl excelBuilderImplValObj = (ExcelBuilderImpl) excelBuilderField.get(writer);
+//        Field contextField = excelBuilderImplValObj.getClass().getDeclaredField("context");
+//        contextField.setAccessible(true);
+//        WriteContext contextValObj = (WriteContext) contextField.get(excelBuilderImplValObj);
+//        Field excelHeadPropertyFiled = contextValObj.getClass().getDeclaredField("excelHeadProperty");
+//        excelHeadPropertyFiled.setAccessible(true);
+//        Field workbookFiled = contextValObj.getClass().getDeclaredField("workbook");
+//        workbookFiled.setAccessible(true);
+//        Workbook workbookValObj = (Workbook) workbookFiled.get(contextValObj);
+////
+//// 用反射实现 WriteContext 内 currentSheet方法逻辑，并加入剔除不需导出字段逻辑
+//        if (null == contextValObj.getCurrentSheet() ||
+//                contextValObj.getCurrentSheet().getSheetNo() != sheetParam.getSheetNo()) {
+//// 调用 WriteContext 的cleanCurrentTable方法
+//            ReflectUtils.invokeMethod(contextValObj, "cleanCurrentTable", null, null);
+//// 将sheetParam 赋值给 WriteContext 的 currentSheetParam 属性
+//            contextValObj.setCurrentSheetParam(sheetParam);
+//// 初始化 WriteContext 的currentSheet属性
+//            try {
+//                contextValObj.setCurrentSheet(workbookValObj.getSheetAt(sheetParam.getSheetNo() - 1));
+//            } catch (Exception var3) {
+//                contextValObj.setCurrentSheet(WorkBookUtil.createSheet(workbookValObj, sheetParam));
+//                if (null != contextValObj.getAfterWriteHandler()) {
+//                    contextValObj.getAfterWriteHandler().sheet(sheetParam.getSheetNo(), contextValObj.getCurrentSheet());
+//                }
+//            }
+//            StyleUtil.buildSheetStyle(contextValObj.getCurrentSheet(), sheetParam.getColumnWidthMap());
+//// 调用 WriteContext 的 initExcelHeadProperty 方法
+//            ReflectUtils.invokeMethod(contextValObj, "initExcelHeadProperty", new Class[]{List.class, Class.class},
+//                    new Object[]{sheetParam.getHead(), sheetParam.getClazz()});
+//// 调用 WriteContext 的 initTableStyle 方法
+//            ReflectUtils.invokeMethod(contextValObj, "initTableStyle", new Class[]{TableStyle.class},
+//                    new Object[]{sheetParam.getTableStyle()});
+//// 获取ExcelHeadProperty对象
+//            ExcelHeadProperty excelHeadPropertyObj = (ExcelHeadProperty) excelHeadPropertyFiled.get(contextValObj);
+//            Field columnPropertyListField = excelHeadPropertyObj.getClass().getDeclaredField("columnPropertyList");
+//            columnPropertyListField.setAccessible(true);
+//            Field headListField = excelHeadPropertyObj.getClass().getDeclaredField("head");
+//            headListField.setAccessible(true);
+//            List<List> headListObj = (List<List>) headListField.get(excelHeadPropertyObj);
+//            List columnPropertyListObj = (List) columnPropertyListField.get(excelHeadPropertyObj);
+//            Iterator it = columnPropertyListObj.iterator();
+//// 剔除不需要导出的字段
+//            int index = 0;
+//            while (it.hasNext()) {
+//                ExcelColumnProperty tmpObj = it.next();
+//                if (noExportFieldsSet.contains(tmpObj.getField().getName())) {
+//                    it.remove();
+//                    headListObj.remove(index);
+//                    index--;
+//                } else {
+//                    index++;
+//                }
+//            }
+//// 调用 WriteContext 内initTableHead方法 创建表头
+//            ReflectUtils.invokeMethod(contextValObj, "initTableHead", null, null);
+//        }
+//        return writer;
+//    }
 
 
 }

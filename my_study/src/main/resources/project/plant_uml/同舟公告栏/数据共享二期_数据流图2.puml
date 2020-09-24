@@ -1,0 +1,6 @@
+@startuml
+web -> api: get data
+api -> DQS: get data
+DQS -> api:response
+api -> web: response
+@enduml

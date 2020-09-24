@@ -6,11 +6,15 @@
  */
 package test;
 
+import com.alibaba.fastjson.JSON;
 import com.google.common.collect.Lists;
 import org.junit.Test;
+import test.enums.DataShareSkuPermEnum;
 
 import java.util.*;
 import java.util.stream.Collectors;
+
+import static test.enums.DataShareSkuPermEnum.TOTAL_SALE_STOCK;
 
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
@@ -173,5 +177,12 @@ public class test {
 
     }
 
+    @Test
+    public void test4(){
+        DataShareSkuPermEnum enums= TOTAL_SALE_STOCK;
+        ArrayList<DataShareSkuPermEnum> dataShareSkuPermEnums = Lists.newArrayList(DataShareSkuPermEnum.values());
+        System.out.println(JSON.toJSONString(dataShareSkuPermEnums));
+        System.out.println(TOTAL_SALE_STOCK.toString());
+    }
 
 }

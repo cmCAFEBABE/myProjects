@@ -1,9 +1,8 @@
 @startuml
-
 前端含协同采购 -> api: get perm
 api -> sci_perm: get perm
-sci_perm -> ras: get data
-ras -> sci_perm:response
+sci_perm -> mysql: get data
+mysql -> sci_perm:response
 sci_perm -> api:response
 api -> 前端含协同采购: response
 @enduml

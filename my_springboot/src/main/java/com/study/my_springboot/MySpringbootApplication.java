@@ -11,8 +11,6 @@ public class MySpringbootApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(MySpringbootApplication.class, args);
-//        AccountSerice bean = context.getBean(AccountSerice.class);
-//        bean.transferMoney(null,null,null);
     }
 
 }
