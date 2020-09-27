@@ -1,4 +1,4 @@
-package com.study.my_springboot.Aspects;
+package com.study.my_springboot.aspects;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -7,10 +7,16 @@ spring:
     url: jdbc:mysql://124.70.151.153:3306/myStudyDB?characterEncoding=utf-8&useSSL=false
     username: root
     password: 19950808
-
-
   aop:
     proxy-target-class=false
+#activeMq 相关配置
+  activemq:
+    broker-url: tcp://124.70.151.153:61616  #mq 服务器地址
+    user: admin
+    password: admin
+  # false : queue    true:topic
+  jms:
+    pub-sub-domain: true
 mybatis:
   #mapper配置文件
   mapper-locations: classpath:mapper/*.xml
@@ -18,4 +24,11 @@ mybatis:
   #开启驼峰命名
   configuration:
     map-underscore-to-camel-case: true
+
+
+#自定定义队列名称
+myqueue: boot-activemq-queue
+myTopic: boot-activemq-topic
+
+
 

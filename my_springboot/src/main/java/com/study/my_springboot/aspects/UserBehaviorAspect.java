@@ -4,7 +4,7 @@
  * Copyright 2020 Netease, Inc. All rights reserved.
  * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package com.study.my_springboot.Aspects;
+package com.study.my_springboot.aspects;
 
 import com.alibaba.fastjson.JSON;
 import org.aspectj.lang.JoinPoint;
@@ -27,7 +27,7 @@ import java.util.HashMap;
 @Component
 public class UserBehaviorAspect {
 
-    @Pointcut("@annotation(com.study.my_springboot.Aspects.UserBehavior)")
+    @Pointcut("@annotation(com.study.my_springboot.aspects.UserBehavior)")
     public void pointCut() {}
 
     @Before("pointCut()")

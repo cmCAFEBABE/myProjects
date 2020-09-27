@@ -6,7 +6,7 @@
  */
 package com.study.my_springboot.controller;
 
-import com.study.my_springboot.Aspects.MethodTimeCount;
+import com.study.my_springboot.aspects.MethodTimeCount;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

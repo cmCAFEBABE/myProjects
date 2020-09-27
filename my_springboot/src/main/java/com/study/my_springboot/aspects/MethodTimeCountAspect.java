@@ -4,7 +4,7 @@
  * Copyright 2020 Netease, Inc. All rights reserved.
  * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package com.study.my_springboot.Aspects;
+package com.study.my_springboot.aspects;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class MethodTimeCountAspect {
-    @Pointcut("@annotation(com.study.my_springboot.Aspects.MethodTimeCount)")
+    @Pointcut("@annotation(com.study.my_springboot.aspects.MethodTimeCount)")
     public void pointCut() {}
 
 

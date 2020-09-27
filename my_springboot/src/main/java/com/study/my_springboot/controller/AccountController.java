@@ -6,7 +6,7 @@
  */
 package com.study.my_springboot.controller;
 
-import com.study.my_springboot.Aspects.UserBehavior;
+import com.study.my_springboot.aspects.UserBehavior;
 import com.study.my_springboot.common.enums.PayWayEnm;
 import com.study.my_springboot.entity.Account;
 import com.study.my_springboot.service.AccountSerice;
