@@ -55,7 +55,7 @@ public class ConfigBean {
      * @return
      */
     @Bean
-    public JmsListenerContainerFactory<?> topicListenerFactory() throws Exception {
+    public JmsListenerContainerFactory<?> topicListenerFactory(){
         DefaultJmsListenerContainerFactory factory = getListenerFactory();
         factory.setPubSubDomain(true);
         return factory;
@@ -66,7 +66,7 @@ public class ConfigBean {
      * @return
      */
     @Bean
-    public JmsListenerContainerFactory<?> queueListenerFactory() throws Exception{
+    public JmsListenerContainerFactory<?> queueListenerFactory(){
         DefaultJmsListenerContainerFactory factory = getListenerFactory();
         factory.setPubSubDomain(false);
         return factory;

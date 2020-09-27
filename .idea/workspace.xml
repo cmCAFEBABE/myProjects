@@ -6,47 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07119a95-d2ee-4663-8111-0f818411fac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_jms_jakarta_jms_api_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_15_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_15_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_15_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/test/java/com/study/my_springboot/mq/activeMQ/TestQctiveMQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/cm_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/cm_utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/my_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/my_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/Aspects/MethodTimeCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/aspects/MethodTimeCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/Aspects/MethodTimeCountAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/aspects/MethodTimeCountAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/Aspects/UserBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/aspects/UserBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/Aspects/UserBehaviorAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/aspects/UserBehaviorAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/Perm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/PermExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/testController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mapper/PermMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/serviceImpl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/serviceImpl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/mapper/PermMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/test/java/com/study/my_springboot/MySpringbootApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/my_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/my_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/my_springboot/target/" />
     <ignored path="$PROJECT_DIR$/my_study/target/" />
@@ -61,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="484">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#572#573#0" expanded="true" />
@@ -85,6 +45,15 @@
                 <element signature="e#845#846#0" expanded="true" />
                 <element signature="e#890#891#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/ActiveMQConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="211" column="32" lean-forward="true" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -155,15 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/javax/jms/TopicConnectionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -179,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Proxy</find>
       <find>newProxyInstance</find>
       <find>ProductController</find>
       <find>auth</find>
@@ -209,6 +168,7 @@
       <find>javaTypeResolver</find>
       <find>plugin</find>
       <find>connectionFactory</find>
+      <find>ActiveMQConnectionFactory</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -475,7 +435,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601187761730" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601187940539" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -639,7 +599,7 @@
       <workItem from="1600069984719" duration="16280000" />
       <workItem from="1600308134428" duration="10913000" />
       <workItem from="1600827690155" duration="23292000" />
-      <workItem from="1601097242383" duration="9785000" />
+      <workItem from="1601097242383" duration="10028000" />
     </task>
     <servers />
   </component>
@@ -676,13 +636,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218947000" />
+    <option name="totallyTimeSpent" value="219190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1792" height="1028" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.18742858" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.18742858" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.18114285" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -692,14 +651,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32832617" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" visible="true" weight="0.3888889" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" weight="0.3888889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2832618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19098713" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19017094" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005714" side_tool="true" weight="0.2792413" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32799146" />
@@ -983,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/ActiveMQConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="277" column="28" selection-start-line="277" selection-start-column="28" selection-end-line="277" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/javax/jms/TopicConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1049,26 +1001,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/ActiveMQConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="211" column="32" lean-forward="true" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="484">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
             <element signature="e#845#846#0" expanded="true" />
             <element signature="e#890#891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
