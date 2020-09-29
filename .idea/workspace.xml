@@ -6,7 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07119a95-d2ee-4663-8111-0f818411fac7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqTopicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqTopicTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/my_springboot/target/" />
     <ignored path="$PROJECT_DIR$/my_study/target/" />
@@ -24,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="919">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#572#573#0" expanded="true" />
@@ -50,10 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/ActiveMQConnectionFactory.java">
+        <entry file="file://$PROJECT_DIR$/my_springboot/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="211" column="32" lean-forward="true" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
+            <state relative-caret-position="108">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -61,8 +64,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="397">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,55 +86,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="492">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+        <entry file="file://$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="2064" column="17" selection-start-line="2064" selection-start-column="17" selection-end-line="2064" selection-end-column="17" />
+            <state relative-caret-position="528">
+              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/springframework/jms/config/DefaultJmsListenerContainerFactory.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/javax/jms/MessageProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="230">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.2.RELEASE/spring-boot-autoconfigure-2.3.2.RELEASE.jar!/org/springframework/boot/autoconfigure/jms/JmsAnnotationDrivenConfiguration.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/ActiveMQMessageProducerSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/springframework/jms/config/AbstractJmsListenerContainerFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/javax/jms/ConnectionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="230">
+              <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -139,7 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>newProxyInstance</find>
       <find>ProductController</find>
       <find>auth</find>
       <find>UserBehaviorAspect</find>
@@ -154,7 +159,6 @@
       <find>getCurrentSheetParam</find>
       <find>sheetParam</find>
       <find>cm_</find>
-      <find>JDBC</find>
       <find>jdbc</find>
       <find>sl</find>
       <find>acti</find>
@@ -169,6 +173,8 @@
       <find>plugin</find>
       <find>connectionFactory</find>
       <find>ActiveMQConnectionFactory</find>
+      <find>JDBC</find>
+      <find>isStockOut</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,8 +199,6 @@
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/Aspects/UserBehaviorAspect.java" />
         <option value="$PROJECT_DIR$/my_study/src/main/java/multhread/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqTest.java" />
-        <option value="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqQueueTest.java" />
-        <option value="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqTopicTest.java" />
         <option value="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期.puml" />
         <option value="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_数据流图.puml" />
         <option value="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" />
@@ -224,10 +228,12 @@
         <option value="$PROJECT_DIR$/my_springboot/src/test/java/com/study/my_springboot/activeMQ/TestActiveMQ.java" />
         <option value="$PROJECT_DIR$/my_springboot/src/test/java/com/study/my_springboot/mq/activeMQ/TestQctiveMQ.java" />
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" />
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqTopicTest.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqQueueTest.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" />
       </list>
     </option>
   </component>
@@ -277,6 +283,19 @@
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="my_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="my_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
               <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,46 +327,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="configBean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="generate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="my_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -435,7 +414,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601187940539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601256326145" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -481,7 +460,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MySpringbootApplication">
+  <component name="RunManager" selected="JUnit.ActiveMqQueueTest.consumer">
     <configuration name="Generate_mySpringBoot (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.my_springboot.generate.Generate_mySpringBoot" />
       <module name="my_springboot" />
@@ -508,17 +487,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetPath.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActiveMqQueueTest.consumer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javapath.*" />
+          <option name="PATTERN" value="mq.activemq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javapath" />
-      <option name="MAIN_CLASS_NAME" value="javapath.GetPath" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="mq.activemq" />
+      <option name="MAIN_CLASS_NAME" value="mq.activemq.ActiveMqQueueTest" />
+      <option name="METHOD_NAME" value="consumer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActiveMqQueueTest.produce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mq.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mq.activemq" />
+      <option name="MAIN_CLASS_NAME" value="mq.activemq.ActiveMqQueueTest" />
+      <option name="METHOD_NAME" value="produce" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -540,22 +535,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.test" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MySpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="my_springboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.my_springboot.MySpringbootApplication" />
@@ -565,11 +544,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActiveMqQueueTest.consumer" />
+        <item itemvalue="JUnit.ActiveMqQueueTest.produce" />
         <item itemvalue="JUnit.TestQctiveMQ.testActiveMQProduce" />
         <item itemvalue="Application.Generate_mySpringBoot (1)" />
         <item itemvalue="Application.Generate_mySpringBoot" />
-        <item itemvalue="JUnit.GetPath.test6" />
-        <item itemvalue="JUnit.test.test4" />
       </list>
     </recent_temporary>
   </component>
@@ -599,29 +578,11 @@
       <workItem from="1600069984719" duration="16280000" />
       <workItem from="1600308134428" duration="10913000" />
       <workItem from="1600827690155" duration="23292000" />
-      <workItem from="1601097242383" duration="10028000" />
+      <workItem from="1601097242383" duration="16971000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExcelTest2_dynamicRowExcel - 2020.09.23 at 15h 15m 33s.xml">
-      <configuration name="ExcelTest2.dynamicRowExcel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExcelTest2_dynamicRowExcel - 2020.09.23 at 15h 16m 07s.xml">
-      <configuration name="ExcelTest2.dynamicRowExcel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_test4 - 2020.09.24 at 15h 22m 18s.xml">
-      <configuration name="test.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_test4 - 2020.09.24 at 15h 22m 33s.xml">
-      <configuration name="test.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_test4 - 2020.09.24 at 15h 25m 51s.xml">
-      <configuration name="test.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_test4 - 2020.09.24 at 15h 26m 25s.xml">
-      <configuration name="test.test4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="test_test4 - 2020.09.24 at 15h 38m 11s.xml">
       <configuration name="test.test4" configurationId="JUnit" />
     </history-entry>
@@ -634,14 +595,33 @@
     <history-entry file="TestQctiveMQ_testActiveMQProduce - 2020.09.27 at 10h 36m 42s.xml">
       <configuration name="TestQctiveMQ.testActiveMQProduce" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ActiveMqQueueTest_produce - 2020.09.27 at 14h 56m 50s.xml">
+      <configuration name="ActiveMqQueueTest.produce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActiveMqQueueTest_produce - 2020.09.27 at 14h 59m 53s.xml">
+      <configuration name="ActiveMqQueueTest.produce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActiveMqQueueTest_produce - 2020.09.27 at 15h 04m 54s.xml">
+      <configuration name="ActiveMqQueueTest.produce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActiveMqQueueTest_consumer - 2020.09.27 at 15h 05m 06s.xml">
+      <configuration name="ActiveMqQueueTest.consumer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActiveMqQueueTest_produce - 2020.09.28 at 09h 22m 30s.xml">
+      <configuration name="ActiveMqQueueTest.produce" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActiveMqQueueTest_consumer - 2020.09.28 at 09h 24m 56s.xml">
+      <configuration name="ActiveMqQueueTest.consumer" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219190000" />
+    <option name="totallyTimeSpent" value="226133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1792" height="1028" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.18742858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.18742858" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.18114285" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -651,14 +631,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32832617" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" weight="0.3888889" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" visible="true" weight="0.23504274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2832618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.19017094" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19017094" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005714" side_tool="true" weight="0.2792413" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32799146" />
@@ -709,36 +689,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9596#9610#0" expanded="true" />
-            <element signature="e#9735#9743#0" expanded="true" />
-            <element signature="e#10239#10253#0" expanded="true" />
-            <element signature="e#10333#10341#0" expanded="true" />
-            <element signature="e#10396#10404#0" expanded="true" />
-            <element signature="e#10459#10467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/enums/DataShareSkuPermEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -853,20 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/test/java/com/study/my_springboot/MySpringbootApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -891,16 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/generate/Generate_mySpringBoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/test/java/com/study/my_springboot/mq/activeMQ/TestQctiveMQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -911,27 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/javax/jms/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,54 +889,116 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9.jar!/org/springframework/jms/config/DefaultJmsListenerContainerFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/ActiveMQConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="211" column="32" lean-forward="true" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
+          <caret line="211" column="32" selection-start-line="211" selection-start-column="32" selection-end-line="211" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqTopicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/generate/Generate_mySpringBoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        <state relative-caret-position="919">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
             <element signature="e#845#846#0" expanded="true" />
             <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/ActiveMQMessageProducerSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/javax/jms/MessageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/mq/activemq/ActiveMqQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

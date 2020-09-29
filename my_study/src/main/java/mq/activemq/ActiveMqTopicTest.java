@@ -16,7 +16,7 @@ import javax.jms.*;
  */
 public class ActiveMqTopicTest {
 
-    private final String ACTIVEMQ_URL = "tcp://124.70.151.153:61616";
+    private final String ACTIVEMQ_URL = "nio://124.70.151.153:61618";
     private final String ACTIVEMQ_TOPIC = "activemqTopicTest";
 
     private static void onMessage(Message o) {

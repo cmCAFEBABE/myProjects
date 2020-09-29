@@ -11,7 +11,7 @@ spring:
     proxy-target-class=false
 #activeMq 相关配置
   activemq:
-    broker-url: tcp://124.70.151.153:61616  #mq 服务器地址
+    broker-url: nio://124.70.151.153:61608  #mq 服务器地址    tcp://124.70.151.153:61616       nio://124.70.151.153:61618  (nio+auto)  nio://124.70.151.153:61608  tcp://124.70.151.153:61608
     user: admin
     password: admin
   # false : queue    true:topic

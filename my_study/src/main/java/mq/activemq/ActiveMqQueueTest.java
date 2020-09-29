@@ -16,7 +16,7 @@ import javax.jms.*;
  */
 public class ActiveMqQueueTest {
 
-    private final String ACTIVEMQ_URL = "tcp://124.70.151.153:61616";
+    private final String ACTIVEMQ_URL = "nio://124.70.151.153:61618";
     private final String ACTIVEMQ_QUEUE = "queue01";
 
     private static void onMessage(Message o) {
@@ -42,6 +42,7 @@ public class ActiveMqQueueTest {
         //4.创建目的地（队列还是topic）
         Queue queue = session.createQueue(ACTIVEMQ_QUEUE);
         MessageProducer producer = session.createProducer(queue);
+        producer.setDeliveryMode(DeliveryMode.PERSISTENT);
         for (int i = 0; i < 10; i++) {
             TextMessage textMessage = session.createTextMessage(ACTIVEMQ_QUEUE + "current index = " + i);
             producer.send(textMessage);

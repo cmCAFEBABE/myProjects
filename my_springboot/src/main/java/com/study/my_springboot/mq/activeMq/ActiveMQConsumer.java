@@ -29,16 +29,16 @@ public class ActiveMQConsumer {
 
     @JmsListener(destination = "${myTopic}",containerFactory="topicListenerFactory")
     public void receiveTopicMsg1(TextMessage textMessage) throws Exception{
-        System.out.println("*****Queue******消费者1 收到消息:"+textMessage.getText());
+        System.out.println("*****Topic******消费者1 收到消息:"+textMessage.getText());
     }
 
     @JmsListener(destination = "${myTopic}",containerFactory="topicListenerFactory")
     public void receiveTopicMsg2(TextMessage textMessage) throws Exception{
-        System.out.println("*****Queue******消费者2 收到消息:"+textMessage.getText());
+        System.out.println("*****Topic******消费者2 收到消息:"+textMessage.getText());
     }
 
     @JmsListener(destination = "${myTopic}",containerFactory="topicListenerFactory")
     public void receiveTopicMsg3(TextMessage textMessage) throws Exception{
-        System.out.println("*****Queue******消费者3 收到消息:"+textMessage.getText());
+        System.out.println("*****Topic******消费者3 收到消息:"+textMessage.getText());
     }
 }
