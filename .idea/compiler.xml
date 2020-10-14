@@ -10,6 +10,9 @@
         <module name="my_common" />
         <module name="my_springboot" />
         <module name="my_study" />
+        <module name="project_seckill_api" />
+        <module name="project_seckill_model" />
+        <module name="project_seckill_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +20,9 @@
       <module name="my_common" target="1.8" />
       <module name="my_springboot" target="1.8" />
       <module name="my_study" target="1.8" />
+      <module name="project_seckill_api" target="1.8" />
+      <module name="project_seckill_model" target="1.8" />
+      <module name="project_seckill_server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

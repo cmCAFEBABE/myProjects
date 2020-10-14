@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/my_study/pom.xml" />
         <option value="$PROJECT_DIR$/my_common/pom.xml" />
         <option value="$PROJECT_DIR$/cm_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/project_seckill_server/pom.xml" />
+        <option value="$PROJECT_DIR$/project_seckill_api/pom.xml" />
+        <option value="$PROJECT_DIR$/project_seckill_model/pom.xml" />
       </list>
     </option>
   </component>

@@ -92,47 +92,17 @@ public class _ToUpperChar {
         System.out.println(StringMapper.map);
         List<String> filedList = Lists.newArrayList();
         String _string =
-                "supplier_id\tstring\t供应商id\n" +
-                        "storehouse_id\tstring\t仓库id\n" +
-                        "storehouse_name\tstring\t仓库名\n" +
-                        "goods_right\tint\t仓库货权归属（0：严选；1：供应商）\n" +
-                        "kpi_total_score\tdouble\t履约总评分\n" +
-                        "outstore_pack_error_rate\tdouble\t打包错误率\n" +
-                        "outstore_pack_error_rate_score\tbigint\t打包错误率得分\n" +
-                        "outstore_pack_error_weight\tdouble\t打包错误率得分权重\n" +
-                        "outstore_pack_intime_rate\tdouble\t打包及时率\n" +
-                        "outstore_pack_intime_rate_score\tbigint\t打包及时率得分\n" +
-                        "outstore_pack_intime_weight\tdouble\t打包及时率得分权重\n" +
-                        "outstore_lack_rate\tdouble\t订单缺货率\n" +
-                        "outstore_lack_rate_score\tbigint\t订单缺货率得分\n" +
-                        "outstore_lack_weight\tdouble\t订单缺货率得分权重\n" +
-                        "inventory_error_rate\tdouble\t库存容错率\n" +
-                        "inventory_error_rate_score\tbigint\t库存容错率得分\n" +
-                        "inventory_error_weight\tdouble\t库存容错率得分权重\n" +
-                        "consignee_intime_rate\tdouble\t揽收及时率\n" +
-                        "consignee_intime_rate_score\tbigint\t揽收及时率得分\n" +
-                        "consignee_intime_weight\tdouble\t揽收及时率得分权重\n" +
-                        "express_intime_rate\tdouble\t配送及时率\n" +
-                        "express_intime_rate_score\tbigint\t配送及时率得分\n" +
-                        "express_intime_weight\tdouble\t配送及时率得分权重\n" +
-                        "express_complain_rate\tdouble\t配送客诉率\n" +
-                        "express_complain_rate_score\tbigint\t配送客诉率得分\n" +
-                        "express_complain_weight\tdouble\t配送客诉率得分权重\n" +
-                        "outstore_intime_fulldose_rate\tdouble\t订单及时足量满足率\n" +
-                        "outstore_intime_fulldose_rate_score\tbigint\t订单及时足量满足率得分\n" +
-                        "outstore_intime_fulldose_weight\tbigint\t订单及时足量满足率得分权重\n" +
-                        "kf_outtime_rate\tdouble\t工单24hr超时率\n" +
-                        "kf_outtime_rate_score\tbigint\t工单24hr超时率得分\n" +
-                        "kf_outtime_weight\tdouble\t工单24hr超时率得分权重\n" +
-                        "kf_1_flow_rate\tdouble\t工单一次流转完成率\n" +
-                        "kf_1_flow_rate_score\tbigint\t工单一次流转完成率得分\n" +
-                        "kf_1_flow_weight\tdouble\t工单一次流转完成率得分权重\n" +
-                        "return_qc_intime_rate\tdouble\t质检确认平均处理率\n" +
-                        "return_qc_intime_rate_score\tbigint\t质检确认平均处理率得分\n" +
-                        "return_qc_intime_weight\tdouble\t质检确认平均处理率得分权重\n" +
-                        "stat_begin_dt\tbigint\t评级统计开始时间（时间戳，毫秒）\n" +
-                        "stat_end_dt\tbigint\t评级统计结束时间（时间戳，毫秒）\n" +
-                        "stat_period\tint\t评级周期（0：日度；1：周度；2：月度；3：季度；4：年度）";
+                        "supplier_id\tstring\t供应商id\n" +
+                                "item_id\tbigint\t商品id\n" +
+                                "sku_id\tbigint\tskuid\n" +
+                                "purchase_uid\tstring\t采购uid\n" +
+                                "purchase_name\tstring\t采购姓名\n" +
+                                "planner_uid\tstring\t计划uid\n" +
+                                "planner_name\tstring\t计划姓名\n" +
+                                "qc_uid\tstring\tsqe uid\n" +
+                                "qc_name\tstring\tsqe 姓名\n" +
+                                "manager_uid\tstring\t商品开发uid\n" +
+                                "manager_name\tstring\t商品开发姓名";
         String[] split = _string.split("\n");
         ArrayList<String> list = Lists.newArrayList(split);
         list.forEach(o -> {
@@ -141,7 +111,7 @@ public class _ToUpperChar {
             String sub1 = "/**\n" +
                     " *" + rowString[2] +
                     " \n*/\n";
-            String sub2 = "private " + StringMapper.map.get(rowString[1])+" ";
+            String sub2 = "private " + StringMapper.map.get(rowString[1].toLowerCase())+" ";
             String sub3 = _StringTransfer(rowString[0]);
             filedList.add(sub3);
 

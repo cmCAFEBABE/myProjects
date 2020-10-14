@@ -6,11 +6,16 @@
  */
 package reflect;
 
+import com.alibaba.fastjson.JSON;
+import com.google.common.collect.Lists;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -63,4 +68,50 @@ public class TestReflect {
         System.out.println(value); // ddd
 
     }
+
+    /**
+     * 获取所有属性值
+     */
+    @Test
+    public void test3() throws Exception{
+        //获取Bar实例
+        Bar bar = new Bar();
+        bar.setABoolean(true);
+        bar.setVal("chenmin");
+
+        Field[] declaredFields = bar.getClass().getDeclaredFields();
+        Arrays.stream(declaredFields).forEach(o->{
+            System.out.println(o.getDeclaringClass());
+            System.out.println(o.getName());
+            System.out.println(o.getGenericType());
+        });
+    }
+
+    @Test
+    public void test4() {
+        List<String> list = Lists.newArrayList();
+                SupplyingItemExportDataTypeVO supplyingItemExportDataTypeVO = new SupplyingItemExportDataTypeVO();
+        supplyingItemExportDataTypeVO.setContainAvgSaleQtyQuanzhanNogift30d(true);
+        Field[] declaredFields = supplyingItemExportDataTypeVO.getClass().getDeclaredFields();
+        Arrays.stream(declaredFields).forEach(o->{
+            try{
+                System.out.println(o.getGenericType().toString());
+                if (o.getGenericType().toString().equals(
+                        "boolean")) {
+                    Method m = (Method) supplyingItemExportDataTypeVO.getClass().getMethod(
+                            o.getName());
+                    Boolean val = (Boolean) m.invoke(supplyingItemExportDataTypeVO);
+                    if (val != null&&!val) {
+                        list.add(o.getName());
+                    }
+
+                }
+            }catch (Exception e){
+
+            }
+
+        });
+        System.out.println(JSON.toJSON(list));
+    }
+
 }

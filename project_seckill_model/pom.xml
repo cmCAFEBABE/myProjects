@@ -12,5 +12,28 @@
 
     <artifactId>project_seckill_model</artifactId>
 
+    <dependencies>
+        <!--api-->
+        <dependency>
+            <artifactId>my_common</artifactId>
+            <groupId>myProject</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
+        <!--spring-mybatis-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
+        <!--json-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.9.0</version>
+            <!--<scope>compile</scope>-->
+        </dependency>
+
+    </dependencies>
 </project>

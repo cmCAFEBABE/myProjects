@@ -44,14 +44,30 @@ public class StringTest {
     }
 
 
+
+
     @Test
     public void test3(){
         ArrayList<Object> objects = Lists.newArrayList(new Object());
         System.out.println(JSON.toJSONString(objects));
     }
-
+    @Test
+    public void test4(){
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append("123");
+        stringBuffer.setLength(0);
+        stringBuffer.append("456");
+        System.out.println(stringBuffer);
+    }
     public void switchAspectJudge(Object... object){
         System.out.println(JSON.toJSONString(object));
+    }
+
+
+    @Test
+    public void test5(){
+        String str = "123"+null+"456";
+        System.out.println(str);
     }
 
 }
