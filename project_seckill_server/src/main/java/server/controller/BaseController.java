@@ -42,7 +42,7 @@ public class BaseController {
     }
 
     /**
-     * 前端发起请求获取数据
+     * 同舟前端发起请求获取数据
      * @param name
      * @return
      */

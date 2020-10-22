@@ -65,4 +65,26 @@ public class test2 {
         System.out.println(Integer.MAX_VALUE);
     }
 
+
+
+    @Test
+    public Integer convertTypeFromPurchaseSystemToSupplier(Integer contractType){
+         {
+            // 采购系统合同类型枚举值: 合同类型(1:采购合同 2:服务合同 3:采购、服务合同 4:众筹合同 5:代销合同 6:生态链合同)
+
+            // 供应商系统: 合同类型 1:采购合同 2:服务合同 3:众筹合同 4:代销合同 5:生态链合同
+
+            if (contractType == 1 || contractType == 2) {
+                return contractType;
+            } else if (contractType == 4) {
+                return 3;
+            } else if (contractType == 5) {
+                return 4;
+            } else if (contractType == 6) {
+                return 5;
+            }
+            throw new RuntimeException("采购转换给供应商的合同类型失败");
+        }
+    }
+
 }

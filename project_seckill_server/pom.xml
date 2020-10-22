@@ -30,8 +30,6 @@
         <common-lang.version>3.8</common-lang.version>
 
     </properties>
-
-
     <!-- 依赖管理 -->
     <dependencyManagement>
         <dependencies>
@@ -57,12 +55,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
             <version>${spring-boot.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>logback-core</artifactId>
-                    <groupId>ch.qos.logback</groupId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+
+        <!--model-->
+        <dependency>
+            <groupId>myProject</groupId>
+            <artifactId>project_seckill_model</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <!--api-->
+        <dependency>
+            <groupId>myProject</groupId>
+            <artifactId>project_seckill_api</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
 
         <!--guava-->
@@ -243,19 +249,6 @@
             <version>${common-lang.version}</version>
         </dependency>
         <dependency>
-            <groupId>myProject</groupId>
-            <artifactId>project_seckill_api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <!--model-->
-        <dependency>
-            <groupId>myProject</groupId>
-            <artifactId>project_seckill_model</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
             <version>2.0.1</version>
@@ -296,4 +289,5 @@
             </resource>
         </resources>
     </build>
+
 </project>
