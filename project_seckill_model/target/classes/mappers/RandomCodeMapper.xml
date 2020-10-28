@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="model.mapper.RandomCodeMapper" >
-  <resultMap id="BaseResultMap" type="model.entity.RandomCode" >
+<mapper namespace="mapper.RandomCodeMapper" >
+  <resultMap id="BaseResultMap" type="entity.RandomCode" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="code" property="code" jdbcType="VARCHAR" />
   </resultMap>
@@ -18,11 +18,11 @@
     delete from random_code
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="model.entity.RandomCode" >
+  <insert id="insert" parameterType="entity.RandomCode" >
     insert into random_code (id, code)
     values (#{id,jdbcType=INTEGER}, #{code,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="model.entity.RandomCode" >
+  <insert id="insertSelective" parameterType="entity.RandomCode" >
     insert into random_code
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -41,7 +41,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="model.entity.RandomCode" >
+  <update id="updateByPrimaryKeySelective" parameterType="entity.RandomCode" >
     update random_code
     <set >
       <if test="code != null" >
@@ -50,7 +50,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="model.entity.RandomCode" >
+  <update id="updateByPrimaryKey" parameterType="entity.RandomCode" >
     update random_code
     set code = #{code,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}

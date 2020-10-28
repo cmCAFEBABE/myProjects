@@ -1,0 +1,15 @@
+server:
+    port: 8080
+spring:
+    #数据库连接配置
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://124.70.151.153:3306/myStudyDB?characterEncoding=utf-8&useSSL=false
+      username: root
+      password: 19950808
+    aop:
+      proxy-target-class=false
+    mvc:
+      view:
+        prefix: /WEB-INF/views/
+        suffix: .jsp

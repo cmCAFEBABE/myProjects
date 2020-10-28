@@ -70,4 +70,11 @@ public class StringTest {
         System.out.println(str);
     }
 
+
+    @Test
+    public void test6(){
+        String str = "123123123123";
+        System.out.println(str.replace("1","一"));
+
+    }
 }

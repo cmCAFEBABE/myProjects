@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="model.mapper.ItemKillMapper" >
-  <resultMap id="BaseResultMap" type="model.entity.ItemKill" >
+<mapper namespace="mapper.ItemKillMapper" >
+  <resultMap id="BaseResultMap" type="entity.ItemKill" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="item_id" property="itemId" jdbcType="INTEGER" />
     <result column="total" property="total" jdbcType="INTEGER" />
@@ -16,7 +16,7 @@
 
 
   <!--查询待秒杀的活动商品列表-->
-  <select id="selectAll" resultType="model.entity.ItemKill">
+  <select id="selectAll" resultType="entity.ItemKill">
     SELECT
       a.*,
       b.name AS itemName,
@@ -31,7 +31,7 @@
   </select>
 
   <!--获取秒杀详情-->
-  <select id="selectById" resultType="model.entity.ItemKill">
+  <select id="selectById" resultType="entity.ItemKill">
     SELECT
       a.*,
       b.name AS itemName,
@@ -67,7 +67,7 @@
 
 
   <!--获取秒杀详情V2-->
-  <select id="selectByIdV2" resultType="model.entity.ItemKill">
+  <select id="selectByIdV2" resultType="entity.ItemKill">
     SELECT
       a.*,
       b.name AS itemName,

@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/my_common/my_common.iml" filepath="$PROJECT_DIR$/my_common/my_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_springboot/my_springboot.iml" filepath="$PROJECT_DIR$/my_springboot/my_springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_study/my_study.iml" filepath="$PROJECT_DIR$/my_study/my_study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project_seckill_api/project_seckill_api.iml" filepath="$PROJECT_DIR$/project_seckill_api/project_seckill_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" filepath="$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_seckill_server/project_seckill_server.iml" filepath="$PROJECT_DIR$/project_seckill_server/project_seckill_server.iml" />
     </modules>
