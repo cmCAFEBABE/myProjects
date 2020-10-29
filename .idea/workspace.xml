@@ -6,276 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07119a95-d2ee-4663-8111-0f818411fac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/project_seckill_server_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_common/src/main/java/enums/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_common/src/main/java/response/BaseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_1_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_30_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_2_0_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_14_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_14_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_14_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_bean_3_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_3_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_1_7_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_1_7_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_redis_1_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_13_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_13_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/cm_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/cm_utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/string/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/string/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/my_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/my_common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/my_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/my_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/project_seckill_api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/src/main/java/api/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/src/main/java/api/enums/StatusCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/src/main/java/api/response/BaseResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/target/classes/api/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/target/classes/api/enums/StatusCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_api/target/classes/api/response/BaseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/dto/KillSuccessUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/dto/KillSuccessUserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/entity/ItemKill.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/entity/ItemKillSuccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKillSuccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/entity/RandomCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/RandomCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/mapper/ItemKillMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/mapper/ItemKillSuccessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillSuccessMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/mapper/RandomCodeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/RandomCodeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/java/model/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillSuccessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillSuccessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/RandomCodeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/RandomCodeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/ItemKillMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/ItemKillSuccessMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/ItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/RandomCodeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/dto/KillSuccessUserInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/entity/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/entity/ItemKill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/entity/ItemKillSuccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/entity/RandomCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/mapper/ItemKillMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/mapper/ItemKillSuccessMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/mapper/ItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/mapper/RandomCodeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/model/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/project_seckill_server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/MainApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/config/RabbitmqConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/config/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/config/RedissonConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/config/SchedulerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/config/ShiroConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/config/ZooKeeperConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/KillController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/dto/KillDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/dto/MailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/enums/SysConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/CustomRealm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/IItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/IKillService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/MailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/RabbitReceiverService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/RabbitSenderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/SchedulerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/impl/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/impl/KillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/utils/RandomUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/server/utils/SnowFlake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/resources/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/resources/spring/spring-jdbc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/MainApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/RabbitmqConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/RabbitmqConfig$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/RabbitmqConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/RedissonConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/SchedulerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/ShiroConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/config/ZooKeeperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/controller/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/controller/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/controller/KillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/dto/KillDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/dto/MailDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/enums/SysConstant$OrderStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/enums/SysConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/CustomRealm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/IItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/IKillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/MailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/RabbitReceiverService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/RabbitSenderService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/RabbitSenderService$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/RabbitSenderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/SchedulerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/impl/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/service/impl/KillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/utils/RandomUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/server/utils/SnowFlake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/target/classes/spring/spring-jdbc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/my_springboot/target/" />
     <ignored path="$PROJECT_DIR$/my_study/target/" />
@@ -296,79 +32,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="1007" column="35" lean-forward="true" selection-start-line="1007" selection-start-column="35" selection-end-line="1007" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="173" selection-start-line="173" selection-end-line="173" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/BaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="375">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.38/tomcat-embed-core-9.0.38-sources.jar!/javax/servlet/http/HttpServlet.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="621" column="53" selection-start-line="621" selection-start-column="53" selection-end-line="621" selection-end-column="53" />
+            <state relative-caret-position="174">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -376,17 +89,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="52" column="19" selection-end-line="99" />
+            <state relative-caret-position="233">
+              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/list.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IItemService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -407,7 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slf4j-log4j12-1.7.13</find>
       <find>zoo</find>
       <find>model</find>
       <find>log</find>
@@ -437,6 +181,7 @@
       <find>DispatcherServlet</find>
       <find>spring.mvc.view.prefix</find>
       <find>doDispatch</find>
+      <find>item_kill</find>
     </findStrings>
     <replaceStrings>
       <replace>model.entity.ItemKillSuccess</replace>
@@ -465,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/RabbitSenderService.java" />
         <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/impl/KillService.java" />
         <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/utils/RandomUtil.java" />
         <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/dto/KillDto.java" />
@@ -494,7 +238,6 @@
         <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/RandomCodeMapper.java" />
         <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" />
         <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillSuccessMapper.xml" />
         <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemMapper.xml" />
         <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/RandomCodeMapper.xml" />
@@ -510,12 +253,14 @@
         <option value="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" />
         <option value="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java" />
-        <option value="$PROJECT_DIR$/my_common/pom.xml" />
         <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/my_common/pom.xml" />
         <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java" />
+        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" />
         <option value="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" />
+        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java" />
+        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java" />
       </list>
     </option>
   </component>
@@ -582,6 +327,58 @@
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
               <item name="my_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -705,7 +502,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603890978768" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603937130276" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -912,7 +709,7 @@
       <workItem from="1603247674901" duration="702000" />
       <workItem from="1603331211208" duration="3111000" />
       <workItem from="1603790192880" duration="14270000" />
-      <workItem from="1603866154959" duration="2756000" />
+      <workItem from="1603866154959" duration="5931000" />
     </task>
     <servers />
   </component>
@@ -949,13 +746,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289191000" />
+    <option name="totallyTimeSpent" value="292366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1792" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.18114285" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -965,8 +762,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3277487" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" weight="0.32492113" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4258675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49942857" visible="true" weight="0.32386962" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4258675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1007,10 +804,10 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1004</line>
+          <url>file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java</url>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1029,25 +826,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/evolution_seckill_api/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/project_seckill_api/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/common/enums/PayWayEnm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/dto/KillSuccessUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1080,16 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1161,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/annotations/Param.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1219,44 +980,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="18" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_seckill_model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,20 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="52" column="19" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -1345,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1359,17 +1065,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+    <entry file="file://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1007" column="35" lean-forward="true" selection-start-line="1007" selection-start-column="35" selection-end-line="1007" selection-end-column="35" />
+        <state relative-caret-position="-1447" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
