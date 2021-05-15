@@ -17,7 +17,7 @@
                 password="${jdbc.password}">
         </jdbcConnection>
         <!-- targetProject:生成PO类的位置 -->
-        <javaModelGenerator targetPackage="com.study.my_springboot.bean.pojo"
+        <javaModelGenerator targetPackage="com.study.my_springboot.bean.validation.Pojo"
                             targetProject="my_springboot/src/main/java/">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />

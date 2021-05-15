@@ -4,7 +4,7 @@
  * Copyright 2020 Netease, Inc. All rights reserved.
  * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package com.netease.mail.yanxuan.supplier.api.remote.domain.vo.sharedata.perm_enum;
+package json;
 
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)

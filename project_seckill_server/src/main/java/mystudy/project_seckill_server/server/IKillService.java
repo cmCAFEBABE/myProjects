@@ -1,11 +1,11 @@
-package com.debug.kill.server.service;
+package mystudy.project_seckill_server.server;
 
 /**
  * Created by Administrator on 2019/6/17.
  */
 public interface IKillService {
 
-    Boolean killItem(Integer killId,Integer userId) throws Exception;
+    Boolean killItem(Integer killId, Integer userId) throws Exception;
 
     Boolean killItemV2(Integer killId, Integer userId) throws Exception;
 

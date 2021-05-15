@@ -10,4 +10,11 @@ package arithmetic;
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
 public class ListNode {
+        int val;
+        ListNode next = null;
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
 }

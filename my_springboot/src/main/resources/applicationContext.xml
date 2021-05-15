@@ -2,5 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
+        <!--一般不用xml配置文件 此文件仅用于调试循环依赖-->
+        <bean id="a" class="com.study.my_springboot.bean.pojo.A">
+                <property name="b" ref="b"></property>
+        </bean>
+        <bean id="b" class="com.study.my_springboot.bean.pojo.B">
+                <property name="a" ref="a"></property>
+        </bean>
 </beans>

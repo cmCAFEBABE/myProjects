@@ -6,8 +6,15 @@
  */
 package com.study.my_springboot.dao;
 
+import com.study.my_springboot.entity.Comment;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
-public class CommentRepository {
+public interface CommentRepository extends MongoRepository<Comment,String> {
+
+    Page<Comment> findByParentid(String parentid, PageRequest of);
 }

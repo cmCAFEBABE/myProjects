@@ -1,5 +1,5 @@
 
-package com.netease.mail.yanxuan.supplier.api.core.thirdparty.sci.bean;
+package json;
 
 import java.io.Serializable;
 

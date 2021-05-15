@@ -1,9 +1,10 @@
-package com.debug.kill.server.service;/**
+package mystudy.project_seckill_server.server.impl;/**
  * Created by Administrator on 2019/7/2.
  */
 
-import com.debug.kill.model.entity.User;
-import com.debug.kill.model.mapper.UserMapper;
+
+import entity.User;
+import mapper.UserMapper;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -52,6 +53,7 @@ public class CustomRealm extends AuthorizingRealm{
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         UsernamePasswordToken token= (UsernamePasswordToken) authenticationToken;
         String userName=token.getUsername();
+        System.out.println(token.getPassword());
         String password=String.valueOf(token.getPassword());
         log.info("当前登录的用户名={} 密码={} ",userName,password);
 

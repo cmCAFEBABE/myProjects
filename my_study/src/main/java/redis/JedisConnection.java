@@ -14,7 +14,7 @@ import redis.clients.jedis.Jedis;
  */
 public class JedisConnection {
 
-    private static String host = "124.70.151.153";
+    private static String host = "121.5.224.189";
     private static int port = 6379;
     private static String password = "19950808";
     private static Jedis jedis = null;

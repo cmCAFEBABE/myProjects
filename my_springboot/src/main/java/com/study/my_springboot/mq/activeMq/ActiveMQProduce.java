@@ -19,8 +19,8 @@ import java.util.UUID;
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
-@Component
-@EnableJms
+//@Component
+//@EnableJms
 public class ActiveMQProduce {
     @Autowired
     private JmsMessagingTemplate jmsMessagingTemplate;

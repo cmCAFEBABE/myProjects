@@ -10,4 +10,13 @@ package arithmetic;
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
 public class TreeNode {
+
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+
 }

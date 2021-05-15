@@ -1,4 +1,4 @@
-package com.debug.kill.server.dto;/**
+package mystudy.project_seckill_server.dto;/**
  * Created by Administrator on 2019/6/22.
  */
 

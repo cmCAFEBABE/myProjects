@@ -92,17 +92,13 @@ public class _ToUpperChar {
         System.out.println(StringMapper.map);
         List<String> filedList = Lists.newArrayList();
         String _string =
-                        "supplier_id\tstring\t供应商id\n" +
-                                "item_id\tbigint\t商品id\n" +
-                                "sku_id\tbigint\tskuid\n" +
-                                "purchase_uid\tstring\t采购uid\n" +
-                                "purchase_name\tstring\t采购姓名\n" +
-                                "planner_uid\tstring\t计划uid\n" +
-                                "planner_name\tstring\t计划姓名\n" +
-                                "qc_uid\tstring\tsqe uid\n" +
-                                "qc_name\tstring\tsqe 姓名\n" +
-                                "manager_uid\tstring\t商品开发uid\n" +
-                                "manager_name\tstring\t商品开发姓名";
+                                "date_id\tstring\t每月/季度第一天 yyyy-MM-dd\n" +
+                                        "supplier_id\tstring\t供应商id\n" +
+                                        "phy_category1_id\tbigint\t1级物理类目id\n" +
+                                        "phy_category1_name\tstring\t1级物理类目名称\n" +
+                                        "phy_category2_id\tbigint\t2级物理类目id\n" +
+                                        "phy_category2_name\tstring\t2级物理类目名称\n" +
+                                        "instore_amt_cq\tdouble\t季采购入库金额";
         String[] split = _string.split("\n");
         ArrayList<String> list = Lists.newArrayList(split);
         list.forEach(o -> {

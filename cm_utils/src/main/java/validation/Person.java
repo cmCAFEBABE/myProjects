@@ -17,7 +17,7 @@ import java.util.List;
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
 @Data
-public class ValidationPojo {
+public class Person {
 
 
     // 错误消息message是可以自定义的

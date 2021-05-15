@@ -4,7 +4,7 @@
  * Copyright 2021 Netease, Inc. All rights reserved.
  * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package com.netease.mail.yanxuan.supplier.ms.core.domain.po.quote;
+package pojo;
 
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)

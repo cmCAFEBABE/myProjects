@@ -4,8 +4,10 @@
  * Copyright 2021 Netease, Inc. All rights reserved.
  * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package com.netease.mail.yanxuan.supplier.ms.core.domain.po.quote;
+package pojo;
 
+import com.alibaba.fastjson.JSON;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -14,6 +16,7 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode
+@Builder
 public class QuoteVersionVO {
     /**
      * skuId
@@ -28,4 +31,8 @@ public class QuoteVersionVO {
      */
     private Integer flowId;
 
+    @Override
+    public String toString() {
+        return JSON.toJSONString(this);
+    }
 }

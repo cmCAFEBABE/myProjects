@@ -1,4 +1,4 @@
-package excel;
+package com.study.my_springboot.test;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 import lombok.Data;
@@ -6,10 +6,14 @@ import lombok.Data;
 
 @Data
 public class DemoData {
-    @ExcelProperty("skuId")
-    private String string;
-    @ExcelProperty("date")
-    private String date;
-    @ExcelProperty("doubleData")
-    private Double doubleData;
+    /**
+     * skuId
+     */
+    @ExcelProperty(value = "skuId")
+    private Long skuId;
+    /**
+     * 老仓库Id
+     */
+    @ExcelProperty(value = "warehouseCode")
+    private String warehouseCode;
 }

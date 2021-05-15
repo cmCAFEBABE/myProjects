@@ -51,7 +51,7 @@
             url: "${ctx}/kill/execute",
             contentType: "application/json;charset=utf-8",
             data: JSON.stringify(getJsonData()),
-            dataType: "json",
+            // dataType: "json.json",
 
             success: function(res){
                 if (res.code==0) {

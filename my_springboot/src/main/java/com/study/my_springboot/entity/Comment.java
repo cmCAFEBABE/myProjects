@@ -1,4 +1,4 @@
-package com.study.my_springboot.bean.pojo;
+package com.study.my_springboot.entity;
 
 import org.springframework.data.mongodb.core.index.CompoundIndex;
 import org.springframework.data.mongodb.core.index.Indexed;

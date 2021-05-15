@@ -6,8 +6,14 @@
  */
 package com.study.my_springboot.code;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
-public class codeAnalyzeA {
+@Component
+public class CodeAnalyzeA {
+    @Autowired
+    CodeAnalyzeB codeAnalyzeB;
 }
