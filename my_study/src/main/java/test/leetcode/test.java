@@ -9,6 +9,7 @@ package test.leetcode;
 import com.google.common.collect.Lists;
 import org.apache.activemq.store.kahadb.disk.index.ListNode;
 import org.checkerframework.checker.units.qual.min;
+import org.ehcache.core.util.CollectionUtil;
 import org.junit.Test;
 
 import java.lang.reflect.Array;
@@ -886,7 +887,7 @@ public class test {
         }
         int[] result = new int[num1.length() + num2.length()];
         for (int i = num1.length() - 1; i >= 0; i--) {
-            int index = result.length - 1-(num1.length()-1-i);
+            int index = result.length - 1 - (num1.length() - 1 - i);
             for (int j = num2.length() - 1; j >= 0; j--) {
                 Integer firstNum = num1.charAt(i) - '0';
                 Integer secondNum = num2.charAt(j) - '0';
@@ -912,6 +913,112 @@ public class test {
         }
         return stringBuilder.toString();
     }
+
+    public String reverseWords(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        s = s.trim();
+        List<String> midResult = Arrays.asList(s.split("\\s+"));
+        Collections.reverse(midResult);
+        return String.join(" ", midResult);
+    }
+
+    public String reverseWords2(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        s = s.trim();
+        int left = 0;
+        int right = s.length() - 1;
+        LinkedList<String> list = new LinkedList<>();
+        StringBuilder stringBuilder = new StringBuilder();
+        while (left <= right) {
+            if (s.charAt(left) != ' ') {
+                stringBuilder.append(s.charAt(left));
+            } else if (stringBuilder.length() != 0) {
+                list.addFirst(stringBuilder.toString());
+                stringBuilder.setLength(0);
+            }
+            left++;
+        }
+        if (stringBuilder.length() > 0) {
+            list.addFirst(stringBuilder.toString());
+        }
+        return String.join(" ", list);
+    }
+
+    public String simplifyPath(String path) {
+        if (path == null || path.length() == 0) {
+            return "";
+        }
+        String[] node = path.split("/+");
+        LinkedList<String> list = new LinkedList<>();
+        for (int i = 0; i < node.length; i++) {
+            if (node[i].equals(".") || node[i].equals("")) {
+                continue;
+            } else if (node[i].equals("..")) {
+                if (!list.isEmpty()) {
+                    list.removeLast();
+                }
+            } else {
+                list.add(node[i]);
+            }
+        }
+        list.addFirst("");
+        return list.size() > 1 ? String.join("/", list) : "/";
+    }
+
+    @Test
+    public void testSimplifyPath() {
+        String path = "/../";
+//        System.out.println(simplifyPath(path));
+        System.out.println(String.join("/", Lists.newArrayList("1")));
+        System.out.println(String.join("/", Lists.newArrayList("1", "2")));
+    }
+
+    @Test
+    public void testRestoreIpAddresses() {
+        System.out.println(restoreIpAddresses("1111"));
+    }
+
+    public List<String> restoreIpAddresses(String s) {
+        if (s == null || s.length() < 4) {
+            return new ArrayList<>();
+        }
+        List<String> result = new ArrayList<>();
+        List<String> subResult = new ArrayList<>();
+        restoreIpAddresses(s, 0, subResult, result);
+        return result;
+    }
+
+    private void restoreIpAddresses(String s, int left, List<String> subResult, List<String> result) {
+        if (subResult.size() == 4) {
+            if (left == s.length()) {
+                result.add(String.join(".", subResult));
+            }
+            return;
+        } else if(left>=s.length()){
+            return;
+        }
+        if (s.charAt(left) == '0') {
+            subResult.add("0");
+            restoreIpAddresses(s, left + 1, subResult, result);
+            subResult.remove(subResult.size() - 1);
+        } else {
+            for (int right = left; right < s.length(); right++) {
+                Integer value = Integer.valueOf(s.substring(left, right + 1));
+                if (value > -1 && value < 256) {
+                    subResult.add(value.toString());
+                    restoreIpAddresses(s, right + 1, subResult, result);
+                    subResult.remove(subResult.size() - 1);
+                }else {
+                    break;
+                }
+            }
+        }
+    }
+
 
     @Test
     public void testMultiply() {
