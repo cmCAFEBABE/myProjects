@@ -14,7 +14,7 @@ import javax.jms.TextMessage;
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
-@Component
+//@Component
 public class ActiveMQConsumer {
 
     /**

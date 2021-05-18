@@ -62,7 +62,7 @@ public class CollectionUtil {
 
         set4.add(user3);
         set4.add(user4);
-        user.setName("test");
+        user.setName("Test");
         user.setYear(12);
 
         BeanUtils.copyProperties(user,user2);
@@ -191,5 +191,14 @@ public class CollectionUtil {
 
 
     }
+
+    @Test
+    public void test(){
+        List<String> list = Lists.newArrayList();
+        list.add(null);
+        System.out.println(list.contains(null));
+    }
+
+
 
 }

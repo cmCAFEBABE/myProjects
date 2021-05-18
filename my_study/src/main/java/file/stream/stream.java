@@ -32,7 +32,6 @@ public class stream {
     private test initObject(String[] o){
         //todo set
         test test = new test();
-        test.setS1(o[0]);
         return test;
     }
 }

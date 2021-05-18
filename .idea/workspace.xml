@@ -1,11 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../yanxuan-supplier/yanxuan-supplier/yanxuan-supplier-product/src/main/resources/config/sqlmap/ProductImgMapper.xml" description="#{url}," line="21" />
-    <bookmark url="file://$PROJECT_DIR$/../yanxuan-supplier/yanxuan-supplier/yanxuan-supplier-product/src/main/resources/config/sqlmap/ProductImgMapper.xml" description="createTime," line="17" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="07119a95-d2ee-4663-8111-0f818411fac7" name="Default Changelist" comment="" />
+    <list default="true" id="07119a95-d2ee-4663-8111-0f818411fac7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/arithmetic/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/arithmetic/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/arithmetic/getOffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/DemoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/DemoDataListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelReadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/lock/ReEnterLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/nettyTest/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pattern/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/QuoteTendencyChartSegmentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/QuoteTendencyChartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/QuoteVersionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/TestJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/TestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/code/CodeAnalyzeA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/code/CodeAnalyzeB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/dao/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/DemoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/DemoDataListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/MongoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/circularDependency/circularDependency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/springbootTest/environmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/待办老流程.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/新流程.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/cm_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/cm_utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/collection/CollectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/collection/CollectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/collection/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/collection/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExternalWarehousePackageErrorRateDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExternalWarehousePackageErrorRateDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataPermVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataPermVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataShareSkuPermEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataShareSkuPermEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/FieldModify.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/FieldModify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/TestJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/TestJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/json.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/lambda/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/lambda/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/string/_ToUpperChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/string/_ToUpperChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/time/timeStampUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/time/timeStampUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Pojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/TodoTaskTypeViewTypeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/TodoTaskTypeViewTypeMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/ValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/ValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/collection/CollectionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/collection/CollectionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597654000711.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597654692730.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597655162291.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597655894946.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597655927312.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597646969285.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597647178433.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597647218144.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648410119.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648649294.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648758300.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648837217.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597649963488.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597650072093.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597650149972.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597651121544.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597652233625.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597652326065.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597652544957.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249518321.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249627821.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249932106.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249968975.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845117217.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845296349.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845331134.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845364730.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1602227793778.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/testDynamicRowExcel1600830332639.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExcelTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExcelTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExternalWarehousePackageErrorRateDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExternalWarehousePackageErrorRateDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/string/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/string/StringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/string/_ToUpperChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/string/_ToUpperChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/time/timeStampUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/time/timeStampUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_common/my_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/my_common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_common/src/main/java/enums/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/src/main/java/enums/StatusCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_common/target/classes/enums/StatusCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/target/classes/enums/StatusCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/SimpleEventDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/SimpleEventDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/ValidationTestPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/ValidationTestPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/ValidationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/ValidationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/ConsumerEventHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/ConsumerEventHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/PublishEventHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/PublishEventHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/AccountSerice.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/AccountSerice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/TestExceptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/TestExceptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/serviceImpl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/serviceImpl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/my_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/my_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/file/stream/stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/file/stream/stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/redis/JedisConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/redis/JedisConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/reflect/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/reflect/Bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办2.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办2.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/META-INF/my_study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/file/stream/stream.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/file/stream/stream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/file/stream/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/file/stream/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/redis/JedisConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/redis/JedisConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/target/classes/同舟待办/同舟待办.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/同舟待办/同舟待办.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/META-INF/project_seckill_model.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/ItemKillMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedissonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/KillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/KillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/KillDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/KillDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/MailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/MailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IKillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IKillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/RandomUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/SnowFlake.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/SnowFlake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/info.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/my_springboot/target/" />
     <ignored path="$PROJECT_DIR$/my_study/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -23,107 +195,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/myProjects$json_test2.ic" NAME="json.test2 Coverage Results" MODIFIED="1604503015356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>json.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/myProjects$environmentTest_testEnvConfig.ic" NAME="environmentTest.testEnvConfig Coverage Results" MODIFIED="1616312283711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.study.my_springboot.test.springbootTest.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java">
+        <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="328">
+              <caret line="922" column="28" lean-forward="true" selection-start-line="922" selection-start-column="28" selection-end-line="922" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/list.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IItemService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#17643#17644#0" expanded="true" />
+                <element signature="e#17701#17702#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,44 +241,49 @@
         <option value="Interface" />
         <option value="Kotlin Class" />
         <option value="AnnotationType" />
-        <option value="UML Sequence" />
         <option value="Enum" />
+        <option value="package-info" />
+        <option value="UML Sequence" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowScrollToSource>false</toolWindowScrollToSource>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jdk</find>
-      <find>LoggerFactory</find>
-      <find>供应商</find>
-      <find>yanxuan_supplier_api</find>
-      <find>yanxuan_supplier_web</find>
-      <find>NodeJs</find>
-      <find>前端</find>
-      <find>同舟</find>
-      <find>同舟待办</find>
-      <find>待办模块</find>
-      <find>activemq</find>
-      <find>org</find>
-      <find>BaseResponse</find>
-      <find>ItemController</find>
-      <find>KillController</find>
-      <find>SchedulerService</find>
-      <find>url</find>
-      <find>com.debug.kill.model.entity.Ite</find>
-      <find>com.debug.kill.model.entity.Item</find>
-      <find>com.debug.kill.model.entity.RandomCode</find>
-      <find>com.debug.kill.model.entity.User</find>
-      <find>ibatis-core</find>
-      <find>mybatis-spring</find>
-      <find>DispatcherServlet</find>
-      <find>spring.mvc.view.prefix</find>
+      <find>refresh</find>
+      <find>Option</find>
+      <find>web</find>
+      <find>invokeAndHanldle</find>
+      <find>invokeAndHandle</find>
+      <find>invokeForRequest</find>
       <find>doDispatch</find>
-      <find>item_kill</find>
-      <find>Anno</find>
-      <find>/xhr/announcement/publishAnnouncement.json</find>
-      <find>publishAnnouncement</find>
+      <find>getMethodArgumentValues</find>
+      <find>dataBinderFactory</find>
+      <find>invoke</find>
+      <find>easy</find>
+      <find>poi</find>
+      <find>Stack</find>
+      <find>getQuoteDraft.json</find>
+      <find>createBean</find>
+      <find>myqueue</find>
+      <find>sql</find>
+      <find>test OK</find>
+      <find>classes</find>
+      <find>---------------------</find>
+      <find>spring</find>
+      <find>likenum</find>
+      <find>Server startup</find>
+      <find>isPalindrome</find>
+      <find>calendar.add(Calendar.DATE, 7)</find>
+      <find>TimeZone.getTimeZone(&quot;GMT+8&quot;)</find>
+      <find>timeFormat2</find>
+      <find>(((())))</find>
+      <find>merge</find>
+      <find>test.</find>
     </findStrings>
     <replaceStrings>
       <replace>model.entity.ItemKillSuccess</replace>
@@ -188,14 +297,21 @@
       <replace>待办模块</replace>
       <replace>同舟</replace>
       <replace>前端</replace>
-      <replace>同舟前端</replace>
       <replace>同舟后端</replace>
       <replace>诺亚服务:待办</replace>
       <replace>诺亚</replace>
       <replace>entity.Item</replace>
       <replace>entity.RandomCode</replace>
       <replace>entity.User</replace>
+      <replace>api</replace>
+      <replace>web</replace>
+      <replace>pojo</replace>
+      <replace>同舟前端</replace>
+      <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/my_springboot/src/main</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -203,57 +319,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/impl/KillService.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/utils/RandomUtil.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/dto/KillDto.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/model/mapper/ItemKillMapper.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/impl/ItemService.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/MainApplication.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/controller/KillController.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/server/service/SchedulerService.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/resources/spring/spring-jdbc.xml" />
-        <option value="$PROJECT_DIR$/seckill_model/pom.xml" />
-        <option value="$PROJECT_DIR$/evolution_seckill_api/pom.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_api/pom.xml" />
-        <option value="$PROJECT_DIR$/my_common/src/main/java/enums/StatusCode.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/Item.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKillSuccess.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/dto/KillSuccessUserInfo.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/RandomCode.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/pom.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemMapper.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/RandomCodeMapper.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillSuccessMapper.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemMapper.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/RandomCodeMapper.xml" />
-        <option value="$PROJECT_DIR$/my_common/src/main/java/response/BaseResponse.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/welcome.jsp" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/error.jsp" />
-        <option value="$PROJECT_DIR$/project_seckill_server/pom.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IItemService.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillSuccessMapper.java" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillMapper.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/A.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/B.java" />
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" />
-        <option value="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/my_common/pom.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" />
-        <option value="$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java" />
-        <option value="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P1TwoSum.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P2AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/circularDependency/circularDependency.java" />
+        <option value="$PROJECT_DIR$/cm_utils/src/main/java/collection/Test.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/TestException.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/my_study/src/main/java/redis/JedisConnection.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/Comment.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/entity/Comment.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/dao/CommentRepository.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/springbootTest/environmentTest.java" />
+        <option value="$PROJECT_DIR$/my_springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/mongoTest.java" />
+        <option value="$PROJECT_DIR$/my_study/src/main/java/test/test.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P5LongestPalindromicSubstring.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P6ZigzagConversion.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P7ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/cm_utils/src/main/java/pattern/Test.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P9PalindromeNumber.java" />
+        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/MongoTest.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P11ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/cm_utils/src/main/java/string/_ToUpperChar.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P12IntegerToRoman.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P13RomanToInteger.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P15ThreeSum.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P17LetterCombinationsOfAPhoneNumber.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P16ThreeSumClosest.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P18FourSum.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P19RemoveNthNodeFromEndOfList.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P20ValidParentheses.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P21MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/cm_utils/src/main/java/time/timeStampUtil.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P22GenerateParentheses.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P23MergeKSortedLists.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P24SwapNodesInPairs.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P25ReverseNodesInKGroup.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P3LongestSubstringWithoutRepeatingCharacters.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P14LongestCommonPrefix.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P567PermutationInString.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P43MultiplyStrings.java" />
+        <option value="$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java" />
       </list>
     </option>
   </component>
@@ -261,6 +377,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$MAVEN_REPOSITORY$/" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -274,30 +391,16 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project_seckill_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project_seckill_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="my_springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
-    <option name="width" value="1792" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="309" />
+    <option name="width" value="1194" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -307,8 +410,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,30 +422,25 @@
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="my_common" type="462c0819:PsiDirectoryNode" />
+              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -350,51 +448,34 @@
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
+              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="my_study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
+              <item name="my_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
+              <item name="my_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
+              <item name="my_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -402,81 +483,21 @@
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
+              <item name="my_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
+              <item name="my_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="project_seckill_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -495,7 +516,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603937255650" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620974422739" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -503,33 +524,39 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="com.study.my_springboot" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project_seckill_server/src/main" />
-      <recent name="$PROJECT_DIR$/project_seckill_model/src/main/resources" />
-      <recent name="$PROJECT_DIR$/project_seckill_model/src/main/java" />
-      <recent name="$PROJECT_DIR$/project_seckill_server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/project_seckill_server/src/main/java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="mystudy.project_seckill_server.server.impl" />
-      <recent name="mystudy.project_seckill_server.server" />
-      <recent name="mystudy.project_seckill_server.controller" />
-      <recent name="dto" />
-      <recent name="reflect" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cm_utils/src/main/resources" />
       <recent name="$PROJECT_DIR$/my_springboot" />
       <recent name="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏" />
       <recent name="$PROJECT_DIR$/my_study/src/main/resources/test" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.study.my_springboot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mystudy.project_seckill_server.controller" />
+      <recent name="mystudy.project_seckill_server.server.impl" />
+      <recent name="mystudy.project_seckill_server.config" />
+      <recent name="pojo" />
+      <recent name="json" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cm_utils/src/main/java/pojo" />
+      <recent name="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test" />
+      <recent name="$PROJECT_DIR$/my_study/src/main/resources/同舟待办" />
+      <recent name="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server" />
+      <recent name="$PROJECT_DIR$/project_seckill_server/src/main" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -543,81 +570,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProjectSeckillServerApplication">
-    <configuration name="NIO.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.test.testMultiply">
+    <configuration name="test.testGenerateParenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.*" />
+          <option name="PATTERN" value="test.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netty" />
-      <option name="MAIN_CLASS_NAME" value="netty.NIO" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="test.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="test.leetcode.test" />
+      <option name="METHOD_NAME" value="testGenerateParenthesis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIO.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.testMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.*" />
+          <option name="PATTERN" value="test.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netty" />
-      <option name="MAIN_CLASS_NAME" value="netty.NIO" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="test.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="test.leetcode.test" />
+      <option name="METHOD_NAME" value="testMultiply" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIO.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.testReverseKGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.*" />
+          <option name="PATTERN" value="test.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="netty" />
-      <option name="MAIN_CLASS_NAME" value="netty.NIO" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="test.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="test.leetcode.test" />
+      <option name="METHOD_NAME" value="testReverseKGroup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIO.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="my_study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="netty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="netty" />
-      <option name="MAIN_CLASS_NAME" value="netty.NIO" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="timeStampUtil.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cm_utils" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="string" />
-      <option name="MAIN_CLASS_NAME" value="string.StringTest" />
+      <option name="PACKAGE_NAME" value="time" />
+      <option name="MAIN_CLASS_NAME" value="time.timeStampUtil" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="timeStampUtil.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cm_utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="time.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="time" />
+      <option name="MAIN_CLASS_NAME" value="time.timeStampUtil" />
       <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -648,24 +675,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.NIO.test" />
-      <item itemvalue="JUnit.NIO.test1" />
-      <item itemvalue="JUnit.NIO.test2" />
-      <item itemvalue="JUnit.NIO.test3" />
+      <item itemvalue="JUnit.timeStampUtil.test5" />
+      <item itemvalue="JUnit.timeStampUtil.test6" />
+      <item itemvalue="JUnit.test.testGenerateParenthesis" />
+      <item itemvalue="JUnit.test.testReverseKGroup" />
+      <item itemvalue="JUnit.test.testMultiply" />
       <item itemvalue="Spring Boot.MainApplication" />
       <item itemvalue="Spring Boot.MySpringbootApplication" />
       <item itemvalue="Spring Boot.ProjectSeckillServerApplication" />
-      <item itemvalue="JUnit.StringTest.test6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringTest.test6" />
-        <item itemvalue="JUnit.NIO.test3" />
-        <item itemvalue="JUnit.NIO.test2" />
-        <item itemvalue="JUnit.NIO.test" />
-        <item itemvalue="JUnit.NIO.test1" />
+        <item itemvalue="JUnit.test.testMultiply" />
+        <item itemvalue="JUnit.test.testReverseKGroup" />
+        <item itemvalue="JUnit.test.testGenerateParenthesis" />
+        <item itemvalue="JUnit.timeStampUtil.test5" />
+        <item itemvalue="JUnit.timeStampUtil.test6" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -703,84 +733,160 @@
       <workItem from="1603331211208" duration="3111000" />
       <workItem from="1603790192880" duration="14270000" />
       <workItem from="1603866154959" duration="6143000" />
+      <workItem from="1604490503281" duration="14667000" />
+      <workItem from="1605015034516" duration="14323000" />
+      <workItem from="1605519840776" duration="1864000" />
+      <workItem from="1606105154923" duration="17382000" />
+      <workItem from="1606790955089" duration="1940000" />
+      <workItem from="1606983726868" duration="801000" />
+      <workItem from="1606998103361" duration="5000" />
+      <workItem from="1607081901474" duration="584000" />
+      <workItem from="1607244792302" duration="4480000" />
+      <workItem from="1607330718146" duration="4366000" />
+      <workItem from="1607436582477" duration="11832000" />
+      <workItem from="1607955546174" duration="11476000" />
+      <workItem from="1608213629263" duration="5429000" />
+      <workItem from="1608885643883" duration="2893000" />
+      <workItem from="1609054108509" duration="35000" />
+      <workItem from="1609830868929" duration="18175000" />
+      <workItem from="1610690813411" duration="839000" />
+      <workItem from="1610691862740" duration="713000" />
+      <workItem from="1611142036788" duration="2308000" />
+      <workItem from="1611556341520" duration="11000" />
+      <workItem from="1611901632584" duration="282000" />
+      <workItem from="1612145989635" duration="6991000" />
+      <workItem from="1612246438097" duration="16000" />
+      <workItem from="1612317287254" duration="1076000" />
+      <workItem from="1612490927841" duration="750000" />
+      <workItem from="1612850179044" duration="274000" />
+      <workItem from="1613701422272" duration="544000" />
+      <workItem from="1614222921837" duration="1060000" />
+      <workItem from="1614256480246" duration="5055000" />
+      <workItem from="1615190639820" duration="10423000" />
+      <workItem from="1615299134720" duration="9194000" />
+      <workItem from="1615448482700" duration="47000" />
+      <workItem from="1615448799579" duration="6830000" />
+      <workItem from="1615813283414" duration="2610000" />
+      <workItem from="1616223081421" duration="1050000" />
+      <workItem from="1616226366960" duration="314000" />
+      <workItem from="1616226761970" duration="1581000" />
+      <workItem from="1616230245027" duration="16000" />
+      <workItem from="1616230286930" duration="25991000" />
+      <workItem from="1616508897552" duration="5127000" />
+      <workItem from="1616834856609" duration="10437000" />
+      <workItem from="1617285291404" duration="10890000" />
+      <workItem from="1617676076480" duration="4037000" />
+      <workItem from="1617711460259" duration="3211000" />
+      <workItem from="1617794986767" duration="8869000" />
+      <workItem from="1617883251155" duration="1830000" />
+      <workItem from="1618195101386" duration="3000" />
+      <workItem from="1618195130606" duration="523000" />
+      <workItem from="1618214930119" duration="5140000" />
+      <workItem from="1618455939375" duration="1060000" />
+      <workItem from="1618888258404" duration="525000" />
+      <workItem from="1618901241924" duration="368000" />
+      <workItem from="1619401277897" duration="3161000" />
+      <workItem from="1619407471345" duration="19707000" />
+      <workItem from="1619522143733" duration="19575000" />
+      <workItem from="1619763186742" duration="3901000" />
+      <workItem from="1620291459485" duration="2561000" />
+      <workItem from="1620612279936" duration="20500000" />
+      <workItem from="1620653875669" duration="7293000" />
+      <workItem from="1620871723725" duration="5439000" />
+      <workItem from="1620955539837" duration="3159000" />
+      <workItem from="1621254741266" duration="2981000" />
+      <workItem from="1621346241575" duration="638000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NIO_test0 - 2020.10.22 at 10h 11m 34s.xml">
-      <configuration name="NIO.test0" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 10h 54m 56s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NIO_test0 - 2020.10.22 at 10h 11m 43s.xml">
-      <configuration name="NIO.test0" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 10h 58m 13s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NIO_test0 - 2020.10.22 at 10h 12m 07s.xml">
-      <configuration name="NIO.test0" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 11h 03m 45s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NIO_test1 - 2020.10.22 at 10h 22m 56s.xml">
-      <configuration name="NIO.test1" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 11h 06m 52s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NIO_test1 - 2020.10.22 at 10h 23m 16s.xml">
-      <configuration name="NIO.test1" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 11h 17m 31s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NIO_test - 2020.10.22 at 10h 27m 14s.xml">
-      <configuration name="NIO.test" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 11h 18m 37s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NIO_test2 - 2020.10.22 at 10h 35m 07s.xml">
-      <configuration name="NIO.test2" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 11h 18m 41s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NIO_test3 - 2020.10.22 at 10h 38m 04s.xml">
-      <configuration name="NIO.test3" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.13 at 11h 19m 43s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_test6 - 2020.10.28 at 14h 23m 48s.xml">
-      <configuration name="StringTest.test6" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.14 at 09h 32m 53s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringTest_test6 - 2020.10.28 at 14h 23m 58s.xml">
-      <configuration name="StringTest.test6" configurationId="JUnit" />
+    <history-entry file="test_testMultiply - 2021.05.14 at 09h 34m 20s.xml">
+      <configuration name="test.testMultiply" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292578000" />
+    <option name="totallyTimeSpent" value="621740000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1792" height="1043" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49853802" visible="true" weight="0.2" />
-      <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.18114285" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58110017" visible="true" weight="0.16809729" />
+      <window_info id="Structure" order="1" sideWeight="0.3018868" side_tool="true" weight="0.20914286" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.41889986" side_tool="true" weight="0.21142857" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3277487" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49942857" weight="0.32386962" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4258675" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49885714" weight="0.2733051" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.528" weight="0.29675812" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49485713" weight="0.20199502" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.18848167" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="FindBugs-IDEA" order="7" visible="true" weight="0.4361905" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.51287556" visible="true" weight="0.31566265" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005714" side_tool="true" weight="0.2792413" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3270242" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48712447" side_tool="true" weight="0.31566265" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49885714" weight="0.32388663" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32911393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24971429" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20514286" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49894515" weight="0.24942791" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24971429" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4952381" weight="0.16457143" />
       <window_info anchor="right" id="PlantUML" order="4" weight="0.42285714" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.4990476" weight="0.3297143" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="right" id="RestServices" order="10" weight="0.32951945" />
       <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" sideWeight="0.5005258" side_tool="true" weight="0.08285714" />
+      <window_info anchor="right" id="SciView" order="13" weight="0.32951945" />
+      <window_info anchor="right" id="leetcode" order="14" sideWeight="0.50095236" side_tool="true" visible="true" weight="0.19527897" />
+      <window_info anchor="right" id="Word Book" order="15" side_tool="true" weight="0.3297143" />
+      <window_info anchor="right" id="Translation Assistant" order="16" visible="true" weight="0.32951945" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,13 +903,128 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java</url>
-          <line>42</line>
+          <url>file://$PROJECT_DIR$/cm_utils/src/main/java/json/json.java</url>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cm_utils/src/main/java/json/json.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/circularDependency/circularDependency.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>592</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1729</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/AbstractPropertyAccessor.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/AbstractNestablePropertyAccessor.java</url>
+          <line>452</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/AbstractNestablePropertyAccessor.java</url>
+          <line>277</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/AbstractNestablePropertyAccessor.java</url>
+          <line>457</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>606</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>586</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1696</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionValueResolver.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolver.java</url>
+          <line>59</line>
+          <properties class="org.springframework.web.method.support.HandlerMethodArgumentResolver" method="resolveArgument">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.8.RELEASE/spring-webmvc-5.2.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/UriComponentsBuilderMethodArgumentResolver.java</url>
+          <line>49</line>
+          <properties class="org.springframework.web.servlet.mvc.method.annotation.UriComponentsBuilderMethodArgumentResolver" method="resolveArgument">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="singletonObjects" />
+        <watch expression="singletonFactories" />
+        <watch expression="earlySingletonObjects" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -812,361 +1033,187 @@
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
       <expression>
+        <expression-string>objects.size()==1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>objects.size()!=1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>i==50</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="throwExceptionValue">
+      <expression>
+        <expression-string>throw new RuntimeException(&quot;123&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="forceReturnValue">
+      <expression>
+        <expression-string>&quot;456&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>objects = null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>objects = Lists.newArrayList()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println(&quot;123&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println(&quot;123&quot;);</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/Item.java">
+    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="4335">
+          <caret line="268" column="28" selection-start-line="268" selection-start-column="28" selection-end-line="268" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKillSuccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/RandomCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/RandomCodeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillSuccessMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/RandomCodeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/static/css/detail.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar!/org/springframework/ui/ModelMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/executeFail.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/executeSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/head.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillSuccessMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/annotations/Param.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/mapper/PermMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/entity/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_common/src/main/java/response/BaseResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_common/src/main/java/enums/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/error.jsp">
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zheng-shu-zhuan-luo-ma-shu-zi-by-leetcode.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P13RomanToInteger.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P15ThreeSum.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/dian-hua-hao-ma-de-zi-mu-zu-he-by-leetcode-solutio.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/san-shu-zhi-he-tui-dao-si-shu-zhi-he-cha-9au1.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/si-shu-zhi-he-by-leetcode-solution.md" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/store/kahadb/disk/index/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/pom.xml">
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P16ThreeSumClosest.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P20ValidParentheses.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P21MergeTwoSortedLists.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P19RemoveNthNodeFromEndOfList.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P18FourSum.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P17LetterCombinationsOfAPhoneNumber.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/gua-hao-sheng-cheng-by-leetcode-solution.md" />
+    <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/json/json.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="181" column="42" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/UserMapper.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="146">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#2838#2839#0" expanded="true" />
+            <element signature="e#2872#2873#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.38/tomcat-embed-core-9.0.38.jar!/javax/servlet/http/HttpServlet.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.38/tomcat-embed-core-9.0.38-sources.jar!/javax/servlet/http/HttpServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="621" column="53" selection-start-line="621" selection-start-column="53" selection-end-line="621" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="173" selection-start-line="173" selection-end-line="173" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1447" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/ProjectSeckillServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="510">
+          <caret line="323" column="59" lean-forward="true" selection-start-line="323" selection-start-column="59" selection-end-line="323" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#12107#12108#0" expanded="true" />
+            <element signature="e#12147#12148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/he-bing-kge-pai-xu-lian-biao-by-leetcode-solutio-2.md" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.2/mybatis-3.5.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/entity/ItemKill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="402">
+          <caret line="2670" column="74" lean-forward="true" selection-start-line="2670" selection-start-column="74" selection-end-line="2670" selection-end-column="74" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#119914#119915#0" expanded="true" />
+            <element signature="e#119971#119972#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml">
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P24SwapNodesInPairs.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P23MergeKSortedLists.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_model/src/main/java/mapper/ItemKillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="314">
+          <caret line="325" column="62" lean-forward="true" selection-start-line="325" selection-start-column="62" selection-end-line="325" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#12158#12159#0" expanded="true" />
+            <element signature="e#12189#12190#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="115" column="12" lean-forward="true" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IItemService.java">
+    <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/time/timeStampUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="516">
+          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/ItemService.java">
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-91.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P22GenerateParentheses.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/k-ge-yi-zu-fan-zhuan-lian-biao-by-leetcode-solutio.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P25ReverseNodesInKGroup.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P151ReverseWordsInAString.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P71SimplifyPath.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P93RestoreIpAddresses.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P155MinStack.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zui-chang-gong-gong-qian-zhui-by-leetcode-solution.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P3LongestSubstringWithoutRepeatingCharacters.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P136SingleNumber.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P169MajorityElement.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P240SearchA2dMatrixIi.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P88MergeSortedArray.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P923SuperEggDrop.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P146LruCache.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P432AllOoneDataStructure.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zi-fu-chuan-de-pai-lie-by-leetcode-solut-7k7u.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P14LongestCommonPrefix.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P557ReverseWordsInAStringIii.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zi-fu-chuan-xiang-cheng-by-leetcode-solution.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P43MultiplyStrings.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P567PermutationInString.java" />
+    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="328">
+          <caret line="922" column="28" lean-forward="true" selection-start-line="922" selection-start-column="28" selection-end-line="922" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#17643#17644#0" expanded="true" />
+            <element signature="e#17701#17702#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1225,12 +1272,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>my_common</last-edited>
+          <last-edited>Spring|my_springboot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,4 +1,4 @@
-package com.debug.kill.server.utils;
+package mystudy.project_seckill_server.utils;
 
 /**
  * 雪花算法

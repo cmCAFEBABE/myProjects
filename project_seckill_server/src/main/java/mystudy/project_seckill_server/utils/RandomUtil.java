@@ -1,13 +1,11 @@
-package com.debug.kill.server.utils;
+package mystudy.project_seckill_server.utils;
 /**
  * Created by Administrator on 2019/6/20.
  */
 
-import org.apache.shiro.crypto.hash.Md5Hash;
-import org.joda.time.DateTime;
 
 import java.text.SimpleDateFormat;
-import java.util.UUID;
+import java.util.Date;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -27,7 +25,7 @@ public class RandomUtil {
      */
     public static String generateOrderCode(){
         //TODO:时间戳+N为随机数流水号
-        return dateFormatOne.format(DateTime.now().toDate()) + generateNumber(4);
+        return dateFormatOne.format(new Date()) + generateNumber(4);
     }
 
     //N为随机数流水号

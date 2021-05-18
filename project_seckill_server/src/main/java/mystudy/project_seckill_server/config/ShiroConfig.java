@@ -1,21 +1,20 @@
-package com.debug.kill.server.config;/**
+package mystudy.project_seckill_server.config;/**
  * Created by Administrator on 2019/7/2.
  */
 
-import com.debug.kill.server.service.CustomRealm;
-import org.apache.shiro.mgt.SecurityManager;
+
+import mystudy.project_seckill_server.server.impl.CustomRealm;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.apache.shiro.mgt.SecurityManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * shiro的通用化配置
- * @Author:debug (SteadyJack)
- * @Date: 2019/7/2 17:54
+
  **/
 @Configuration
 public class ShiroConfig {
@@ -39,7 +38,7 @@ public class ShiroConfig {
         bean.setLoginUrl("/to/login");
         bean.setUnauthorizedUrl("/unauth");
 
-        Map<String, String> filterChainDefinitionMap=new HashMap<>();
+        Map<String, String> filterChainDefinitionMap=new HashMap<>(10);
         filterChainDefinitionMap.put("/to/login","anon");
 
         filterChainDefinitionMap.put("/**","anon");

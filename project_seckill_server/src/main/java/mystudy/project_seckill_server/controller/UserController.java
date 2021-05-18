@@ -1,8 +1,7 @@
-package com.debug.kill.server.controller;/**
+package mystudy.project_seckill_server.controller;/**
  * Created by Administrator on 2019/7/2.
  */
 
-import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.DisabledAccountException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
@@ -15,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -70,7 +70,7 @@ public class UserController {
             errorMsg="用户登录异常，请联系管理员!";
             e.printStackTrace();
         }
-        if (StringUtils.isBlank(errorMsg)){
+        if (StringUtils.isEmpty(errorMsg)){
             return "redirect:/index";
         }else{
             modelMap.addAttribute("errorMsg",errorMsg);

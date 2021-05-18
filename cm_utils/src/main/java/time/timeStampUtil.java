@@ -6,14 +6,16 @@
  */
 package time;
 
+import cn.hutool.core.date.DateUtil;
 import org.junit.Test;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
+
+import static java.util.Calendar.JANUARY;
+
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
@@ -85,5 +87,64 @@ public class timeStampUtil {
         }
         return formatTimeStr;
     }
+
+    @Test
+    public void test(){
+        String result2 = new SimpleDateFormat("MM-dd").format(System.currentTimeMillis());
+        System.out.println(result2);
+    }
+    @Test
+    public void test2(){
+        Date now = new Date();
+        long beginOfYear = DateUtil.beginOfYear(now).toTimestamp().getTime();
+        long endOfYear = DateUtil.endOfYear(now).toTimestamp().getTime();
+        System.out.println(beginOfYear);
+        System.out.println(endOfYear);
+    }
+    @Test
+    public void test3() throws InterruptedException {
+//        Date date = new Date("2018-01-01");
+//        long time = date.getTime();
+        Calendar calendar = Calendar.getInstance();// 获取当前日期
+        calendar.set(Integer.valueOf("2018"),0,1,0,0,0);
+        Long time = calendar.getTimeInMillis();
+        System.out.println(time);
+        Thread.sleep(200);
+        Calendar calendar2 = Calendar.getInstance();// 获取当前日期
+        calendar2.set(Integer.valueOf("2018"),0,1,0,0,0);
+        Long time2 = calendar.getTimeInMillis();
+        System.out.println(time2);
+    }
+
+    @Test
+    public void test5() throws ParseException {
+        DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        java.util.Date date = df.parse("2018-12-29");
+        Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("GMT+8"), Locale.CHINA);
+        cal.setTime(date);
+        //!!!!!!getWeekYear() 不是取当前年份！！！
+        System.out.println(cal.getWeekYear());
+        cal.set(cal.getWeekYear(),JANUARY,1);
+        long timestamp = cal.getTimeInMillis();
+        System.out.println(timestamp);
+    }
+
+    @Test
+    public void test6() throws ParseException {
+        DateFormat df = new SimpleDateFormat("yyyy-MM");
+        java.util.Date date = df.parse("2018-02-31");
+        System.out.println(date.getTime());
+    }
+
+    @Test
+    public void test4(){
+        Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT+8"));
+        long currentZoneTime = calendar.getTimeInMillis();
+        calendar.add(Calendar.DATE, 7);
+        //获取7天后零点的时间戳
+        long weekAfterTime = calendar.getTimeInMillis();
+        System.out.println(weekAfterTime);
+    }
+
 
 }

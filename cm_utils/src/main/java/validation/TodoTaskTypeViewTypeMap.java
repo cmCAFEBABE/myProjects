@@ -4,7 +4,7 @@
  * Copyright 2020 Netease, Inc. All rights reserved.
  * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package pojo;
+package validation;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;

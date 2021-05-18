@@ -26,6 +26,13 @@ public class ExternalWarehousePackageErrorRateDetail implements Serializable {
     @ExcelProperty(value = "工单标题",converter = StringConver.class)
     private String workOrderName;
 
+
+    /**
+     * 工单标题
+     */
+    @ExcelProperty(value = "testIsContain")
+    private String isContainGoodComment;
+
     /**
      * 工单Id
      */
@@ -144,5 +151,13 @@ public class ExternalWarehousePackageErrorRateDetail implements Serializable {
 
     public void setRate(Double rate) {
         this.rate = rate;
+    }
+
+    public String getIsContainGoodComment() {
+        return isContainGoodComment;
+    }
+
+    public void setIsContainGoodComment(String isContainGoodComment) {
+        this.isContainGoodComment = isContainGoodComment;
     }
 }

@@ -9,4 +9,7 @@ public class Bar {
     private String val;
 
     private Boolean aBoolean;
+
+
+
 }

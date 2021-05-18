@@ -16,6 +16,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -36,11 +38,16 @@ public class AccountServiceImpl implements AccountSerice {
 
     @Override
 //    @MethodTimeCount
+    @Transactional(propagation = Propagation.NESTED)
     public void transferMoney(String inName, String outName, Double money) {
 //        Object o = AopContext.currentProxy();
-        accountMapper.deleteMoney(outName,money);
-//        int i= 1/0;
-        accountMapper.addMoney(inName,money);
+        try {
+            accountMapper.deleteMoney(outName,money);
+            int i= 1/0;
+            accountMapper.addMoney(inName,money);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override

@@ -11,4 +11,5 @@
     <update id="deleteMoney">
         update t_account set money = money - #{money} where name = #{outName}
     </update>
+
 </mapper>

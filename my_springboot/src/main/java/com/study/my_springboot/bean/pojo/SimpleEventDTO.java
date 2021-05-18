@@ -6,8 +6,17 @@
  */
 package com.study.my_springboot.bean.pojo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.io.Serializable;
+
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
  */
-public class SimpleEventDTO {
+@Data
+@AllArgsConstructor
+public class SimpleEventDTO  implements Serializable {
+    private String Key;
+    private String value;
 }

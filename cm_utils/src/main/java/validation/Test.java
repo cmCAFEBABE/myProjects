@@ -4,7 +4,7 @@
  * Copyright 2020 Netease, Inc. All rights reserved.
  * NETEASE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
-package pojo;
+package validation;
 
 /**
  * @author 陈敏(chenmin5 @ corp.netease.com)
@@ -12,7 +12,7 @@ package pojo;
 public class Test {
     @org.junit.Test
     public void test(){
-        pojo pojo = new pojo(null, null);
+        Pojo pojo = new Pojo(null, null);
         System.out.println(pojo);
     }
 }

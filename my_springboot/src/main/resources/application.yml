@@ -9,7 +9,7 @@ spring:
     password: 19950808
   aop:
     proxy-target-class=false
-#activeMq 相关配置
+  #activeMq 相关配置
   activemq:
     broker-url: nio://124.70.151.153:61608  #mq 服务器地址    tcp://124.70.151.153:61616       nio://124.70.151.153:61618  (nio+auto)  nio://124.70.151.153:61608  tcp://124.70.151.153:61608
     user: admin
@@ -17,6 +17,33 @@ spring:
   # false : queue    true:topic
   jms:
     pub-sub-domain: true
+
+  redis:
+    host: 121.5.224.189
+    port: 6379
+    password: 19950808
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 500
+        min-idle: 0
+    lettuce:
+      shutdown-timeout: 0
+
+  #数据源配置
+  data:
+    mongodb:
+      # 主机地址
+      host: 121.5.224.189
+      # 数据库
+      database: test
+      # 默认端口是27017
+      port: 27017
+      #也可以使用uri连接
+      #uri: mongodb://bobo:123456@180.76.159.126:27017,180.76.159.126:27018,180.76.159.126:27019/articledb?connect=replicaSet&slaveOk=true&replicaSet=myrs
+#      username: chenmin
+#      password: 123456
 mybatis:
   #mapper配置文件
   mapper-locations: classpath:mapper/*.xml
@@ -29,6 +56,11 @@ mybatis:
 #自定定义队列名称
 myqueue: boot-activemq-queue
 myTopic: boot-activemq-topic
+
+
+
+
+sql: select * from sss where A= #{} and b = #{};
 
 
 

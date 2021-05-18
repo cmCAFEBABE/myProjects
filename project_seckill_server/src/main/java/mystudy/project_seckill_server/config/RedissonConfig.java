@@ -1,6 +1,7 @@
-package com.debug.kill.server.config;/**
+package mystudy.project_seckill_server.config;/**
  * Created by Administrator on 2019/7/2.
  */
+
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
@@ -25,9 +26,10 @@ public class RedissonConfig {
     public RedissonClient redissonClient(){
         Config config=new Config();
         config.useSingleServer()
-                .setAddress(env.getProperty("redis.config.host"))
-                .setPassword(env.getProperty("spring.redis.password"));
-        RedissonClient client=Redisson.create(config);
+                .setAddress(env.getProperty("spring.redis.config"))
+                .setPassword(env.getProperty("spring.redis.password"))
+                .setConnectionMinimumIdleSize(10);
+        RedissonClient client= Redisson.create(config);
         return client;
     }
 

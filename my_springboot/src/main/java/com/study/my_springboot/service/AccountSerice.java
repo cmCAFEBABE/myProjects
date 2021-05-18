@@ -18,7 +18,7 @@ import java.util.List;
 public interface AccountSerice {
     List<Account> getAllAccountList();
 
-    @Transactional
+
     void transferMoney(String inName, String outName, Double money);
 
     String pay(PayWayEnm payWay);

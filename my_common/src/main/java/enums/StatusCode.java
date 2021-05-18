@@ -12,10 +12,10 @@ public enum StatusCode {
     /**
      *
      */
-    SUCCESS(400,"成功"),
-    FAIL(500,"失败"),
-    INVALID_PARAMS(501,"非法的参数!"),
-    NOTLOGIN(502,"用户没登录"),
+    SUCCESS(0,"成功"),
+    FAIL(-1,"失败"),
+    INVALID_PARAMS(201,"非法的参数!"),
+    NOTLOGIN(202,"用户没登录"),
     ;
 
     private Integer code;
