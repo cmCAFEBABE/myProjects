@@ -1270,7 +1270,7 @@ public class test {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
         ListNode cur = head;
-        while (cur!=null){
+        while (cur != null) {
             ListNode next = cur.next;
             cur.next = pre;
             pre = cur;
@@ -1280,7 +1280,63 @@ public class test {
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if(l1==null)
+        return null;
+    }
+
+    /**
+     * 接雨水
+     */
+    public int trap(int[] height) {
+        if (height == null || height.length < 3) {
+            return 0;
+        }
+        int[] leftMaxHeigh = new int[height.length];
+        int[] rightMaxHeigh = new int[height.length];
+        for (int i = 0; i < height.length; i++) {
+            if (i == 0) {
+                leftMaxHeigh[i] = height[i];
+            } else {
+                leftMaxHeigh[i] = Math.max(leftMaxHeigh[i - 1], height[i]);
+            }
+        }
+        for (int i = height.length - 1; i >= 0; i--) {
+            if (i == height.length - 1) {
+                rightMaxHeigh[i] = height[i];
+            } else {
+                rightMaxHeigh[i] = Math.max(rightMaxHeigh[i + 1], height[i]);
+            }
+        }
+        int sum = 0;
+        for (int i = 0; i < height.length; i++) {
+            sum += Math.min(leftMaxHeigh[i], rightMaxHeigh[i]) - height[i];
+        }
+        return sum;
+    }
+
+    public ListNode detectCycle(ListNode head) {
+        ListNode fastNode = head;
+        ListNode slowNode = head;
+        if (head == null) {
+            return head;
+        }
+        while (true) {
+            if (slowNode != null) {
+                slowNode = slowNode.next;
+            }
+            if (fastNode != null && fastNode.next != null) {
+                fastNode = fastNode.next.next;
+            } else {
+                return null;
+            }
+            if (fastNode == slowNode) {
+                ListNode first = head;
+                while (first!=slowNode){
+                    first = first.next;
+                    slowNode = slowNode.next;
+                }
+                return first;
+            }
+        }
     }
 
 }
