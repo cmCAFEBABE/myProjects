@@ -8,8 +8,11 @@ package test.leetcode;
 
 import com.google.common.collect.Lists;
 import org.apache.activemq.store.kahadb.disk.index.ListNode;
+import org.apache.poi.ss.formula.functions.T;
 import org.checkerframework.checker.units.qual.min;
+import org.ehcache.core.util.CollectionUtil;
 import org.junit.Test;
+import org.springframework.util.CollectionUtils;
 
 import java.lang.reflect.Array;
 import java.util.*;
@@ -891,9 +894,12 @@ public class test {
                 Integer firstNum = num1.charAt(i) - '0';
                 Integer secondNum = num2.charAt(j) - '0';
                 int subResult = firstNum * secondNum;
-                result[index] += subResult;
-                result[index - 1] += result[index] / 10;
-                result[index] = result[index] % 10;
+                result[index] += subResult % 10;
+                result[index - 1] += subResult / 10;
+                if (result[index] > 10) {
+                    result[index] -= 10;
+                    result[index - 1] += 1;
+                }
                 index--;
             }
         }
@@ -910,11 +916,329 @@ public class test {
         return stringBuilder.toString();
     }
 
-    /**
-     * " 1234  567 789  "
-     */
-    public void reverseString(String num){
+    public String reverseWords(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        s = s.trim();
+        List<String> midResult = Arrays.asList(s.split("\\s+"));
+        Collections.reverse(midResult);
+        return String.join(" ", midResult);
+    }
 
+    public String reverseWords2(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        s = s.trim();
+        int left = 0;
+        int right = s.length() - 1;
+        LinkedList<String> list = new LinkedList<>();
+        StringBuilder stringBuilder = new StringBuilder();
+        while (left <= right) {
+            if (s.charAt(left) != ' ') {
+                stringBuilder.append(s.charAt(left));
+            } else if (stringBuilder.length() != 0) {
+                list.addFirst(stringBuilder.toString());
+                stringBuilder.setLength(0);
+            }
+            left++;
+        }
+        if (stringBuilder.length() > 0) {
+            list.addFirst(stringBuilder.toString());
+        }
+        return String.join(" ", list);
+    }
+
+    public String simplifyPath(String path) {
+        if (path == null || path.length() == 0) {
+            return "";
+        }
+        String[] node = path.split("/+");
+        LinkedList<String> list = new LinkedList<>();
+        for (int i = 0; i < node.length; i++) {
+            if (node[i].equals(".") || node[i].equals("")) {
+                continue;
+            } else if (node[i].equals("..")) {
+                if (!list.isEmpty()) {
+                    list.removeLast();
+                }
+            } else {
+                list.add(node[i]);
+            }
+        }
+        list.addFirst("");
+        return list.size() > 1 ? String.join("/", list) : "/";
+    }
+
+    @Test
+    public void testSimplifyPath() {
+        String path = "/../";
+//        System.out.println(simplifyPath(path));
+        System.out.println(String.join("/", Lists.newArrayList("1")));
+        System.out.println(String.join("/", Lists.newArrayList("1", "2")));
+    }
+
+    @Test
+    public void testRestoreIpAddresses() {
+        System.out.println(restoreIpAddresses("1111"));
+    }
+
+    public List<String> restoreIpAddresses(String s) {
+        if (s == null || s.length() < 4) {
+            return new ArrayList<>();
+        }
+        List<String> result = new ArrayList<>();
+        List<String> subResult = new ArrayList<>();
+        restoreIpAddresses(s, 0, subResult, result);
+        return result;
+    }
+
+    private void restoreIpAddresses(String s, int left, List<String> subResult, List<String> result) {
+        if (subResult.size() == 4) {
+            if (left == s.length()) {
+                result.add(String.join(".", subResult));
+            }
+            return;
+        } else if (left >= s.length()) {
+            return;
+        }
+        if (s.charAt(left) == '0') {
+            subResult.add("0");
+            restoreIpAddresses(s, left + 1, subResult, result);
+            subResult.remove(subResult.size() - 1);
+        } else {
+            for (int right = left; right < s.length(); right++) {
+                Integer value = Integer.valueOf(s.substring(left, right + 1));
+                if (value > -1 && value < 256) {
+                    subResult.add(value.toString());
+                    restoreIpAddresses(s, right + 1, subResult, result);
+                    subResult.remove(subResult.size() - 1);
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+
+    public List<List<Integer>> threeSum2(int[] nums) {
+        ArrayList<List<Integer>> result = new ArrayList<>();
+        if (nums == null || nums.length < 3) {
+            return result;
+        }
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length; i++) {
+            while (i > 0 && nums[i] == nums[i - 1] && i < nums.length - 1) {
+                i++;
+            }
+            int target = -nums[i];
+            int left = i + 1;
+            int right = nums.length - 1;
+            while (left < right) {
+                if (nums[left] + nums[right] < target) {
+                    left++;
+                } else if (nums[right] + nums[left] > target) {
+                    right--;
+                } else {
+                    ArrayList<Integer> subList = new ArrayList<>();
+                    subList.add(nums[i]);
+                    subList.add(nums[left]);
+                    subList.add(nums[right]);
+                    result.add(subList);
+                    left++;
+                    right--;
+                    while (left < right && nums[left - 1] == nums[left]) {
+                        left++;
+                    }
+                    while (left < right && nums[right + 1] == nums[right]) {
+                        right--;
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
+
+    public int maxAreaOfIsland(int[][] grid) {
+        if (grid == null || grid.length == 0 || grid[0].length == 0) {
+            return 0;
+        }
+        //用-1表示遍历过
+        int[][] way = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        int max = 0;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                max = Math.max(max, dfsMaxAreaOfIsland(grid, i, j, way));
+            }
+        }
+        return max;
+    }
+
+    //旋转数据查找
+    //关键: 至少一边是有序的
+    public int search(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        int left = 0;
+        int right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (target == nums[mid]) {
+                return mid;
+            } else {
+                //左边有序
+                if (nums[left] <= nums[mid]) {
+                    if (nums[left] <= target && target < nums[mid]) {
+                        right = mid - 1;
+                    } else {
+                        left = mid + 1;
+                    }
+                }
+                //右边有序
+                else {
+                    if (nums[mid] < target && target <= nums[right]) {
+                        left = mid + 1;
+                    } else {
+                        right = mid - 1;
+                    }
+                }
+            }
+        }
+        return -1;
+    }
+
+    public int findLengthOfLCIS(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int left = 0;
+        int right = 1;
+        int max = 1;
+        while (right < nums.length) {
+            if (nums[right] > nums[left]) {
+                right++;
+            } else {
+                left = right;
+                right = right + 1;
+            }
+            max = Math.max(max, right - left + 1);
+        }
+        return max;
+    }
+
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Integer::compareTo);
+        for (int i = 0; i < nums.length; i++) {
+            queue.add(nums[i]);
+            if (queue.size() > k) {
+                queue.remove();
+            }
+        }
+        return queue.isEmpty() ? -1 : queue.peek();
+    }
+
+    public int longestConsecutive(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        HashSet<Integer> set = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            set.add(nums[i]);
+        }
+        int max = 0;
+        for (int num : nums) {
+            if (!set.contains(num - 1)) {
+                int arm = num;
+                int subLen = 0;
+                while (set.contains(arm)) {
+                    subLen++;
+                    arm++;
+                }
+                max = Math.max(subLen, max);
+            }
+        }
+        return max;
+    }
+
+    @Test
+    public void testGetPermutation() {
+        System.out.println(getPermutation(3, 3));
+    }
+
+    public String getPermutation(int n, int k) {
+        if (n < 0 || k < 0) {
+            return "";
+        }
+        int[] num = new int[n];
+        int[] used = new int[n];
+        for (int i = 1; i < num.length + 1; i++) {
+            num[i - 1] = i;
+        }
+        List<String> result = new ArrayList<>();
+        StringBuilder subResult = new StringBuilder();
+        for (int i = 0; i < num.length; i++) {
+            if (dfs(used, num, i, subResult, result, k)) {
+                break;
+            }
+        }
+        return result.get(k - 1);
+    }
+
+    private boolean dfs(int[] used, int[] num, int currentIndex, StringBuilder subResult, List<String> result, Integer k) {
+        subResult.append(num[currentIndex]);
+        used[currentIndex] = 1;
+        if (subResult.length() == num.length) {
+            result.add(subResult.toString());
+            if (result.size() == k) {
+                return true;
+            }
+        }
+        for (int i = 0; i < num.length && subResult.length() != num.length; i++) {
+            if (used[i] == 0) {
+                if (dfs(used, num, i, subResult, result, k)) {
+                    return true;
+                }
+            }
+        }
+        used[currentIndex] = 0;
+        subResult.deleteCharAt(subResult.length() - 1);
+        return false;
+    }
+
+    @Test
+    public void testFindKthLargest() {
+        int[] array = {3, 2, 3, 1, 2, 4, 5, 5, 6};
+
+        System.out.println(findKthLargest(array, 4));
+    }
+
+
+    @Test
+    public void testSearch() {
+        int[] array = {4, 5, 6, 7, 0, 1, 2};
+        System.out.println(search(array, 0));
+    }
+
+
+    private Integer dfsMaxAreaOfIsland(int[][] grid, int x, int y, int[][] way) {
+        if (x < 0 || y < 0 || x >= grid.length || y >= grid[0].length || grid[x][y] != 1) {
+            return 0;
+        }
+        //标记遍历过
+        grid[x][y] = 0;
+        int subSum = 1;
+        for (int i = 0; i < way.length; i++) {
+            subSum += dfsMaxAreaOfIsland(grid, x + way[i][0], y + way[i][1], way);
+        }
+        return subSum;
+    }
+
+    @Test
+    public void testThreeSum2() {
+        int[] nums = {0, 0, 0};
+        System.out.println(threeSum2(nums));
     }
 
     @Test
@@ -924,8 +1248,95 @@ public class test {
         System.out.println(multiply(num1, num2));
     }
 
-    public int trap(int[] height) {
+    public int[][] merge(int[][] intervals) {
+        if (intervals == null || intervals.length < 2) {
+            return intervals;
+        }
+        //先排序
+        Arrays.sort(intervals, (Comparator.comparingInt(o -> o[0])));
+        List<int[]> result = new ArrayList<>();
+        result.add(intervals[0]);
+        for (int i = 1; i < intervals.length; i++) {
+            if (intervals[i][0] >= result.get(result.size() - 1)[0] && intervals[i][0] <= result.get(result.size() - 1)[1]) {
+                int[] ints = result.get(result.size() - 1);
+                ints[1] = Math.max(ints[1], intervals[i][1]);
+            } else {
+                result.add(intervals[i]);
+            }
+        }
+        return result.toArray(new int[result.size()][]);
+    }
 
+    public ListNode reverseList(ListNode head) {
+        ListNode pre = null;
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        return pre;
+    }
+
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        return null;
+    }
+
+    /**
+     * 接雨水
+     */
+    public int trap(int[] height) {
+        if (height == null || height.length < 3) {
+            return 0;
+        }
+        int[] leftMaxHeigh = new int[height.length];
+        int[] rightMaxHeigh = new int[height.length];
+        for (int i = 0; i < height.length; i++) {
+            if (i == 0) {
+                leftMaxHeigh[i] = height[i];
+            } else {
+                leftMaxHeigh[i] = Math.max(leftMaxHeigh[i - 1], height[i]);
+            }
+        }
+        for (int i = height.length - 1; i >= 0; i--) {
+            if (i == height.length - 1) {
+                rightMaxHeigh[i] = height[i];
+            } else {
+                rightMaxHeigh[i] = Math.max(rightMaxHeigh[i + 1], height[i]);
+            }
+        }
+        int sum = 0;
+        for (int i = 0; i < height.length; i++) {
+            sum += Math.min(leftMaxHeigh[i], rightMaxHeigh[i]) - height[i];
+        }
+        return sum;
+    }
+
+    public ListNode detectCycle(ListNode head) {
+        ListNode fastNode = head;
+        ListNode slowNode = head;
+        if (head == null) {
+            return head;
+        }
+        while (true) {
+            if (slowNode != null) {
+                slowNode = slowNode.next;
+            }
+            if (fastNode != null && fastNode.next != null) {
+                fastNode = fastNode.next.next;
+            } else {
+                return null;
+            }
+            if (fastNode == slowNode) {
+                ListNode first = head;
+                while (first!=slowNode){
+                    first = first.next;
+                    slowNode = slowNode.next;
+                }
+                return first;
+            }
+        }
     }
 
 }

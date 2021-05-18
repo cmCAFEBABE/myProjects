@@ -2,181 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07119a95-d2ee-4663-8111-0f818411fac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/arithmetic/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/arithmetic/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/arithmetic/getOffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/DemoData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/DemoDataListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelReadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/lock/ReEnterLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/nettyTest/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pattern/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/QuoteTendencyChartSegmentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/QuoteTendencyChartVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/QuoteVersionVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cm_utils/src/main/java/pojo/TestJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/TestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/code/CodeAnalyzeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/code/CodeAnalyzeB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/dao/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/DemoData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/DemoDataListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/MongoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/circularDependency/circularDependency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/springbootTest/environmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/待办老流程.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/新流程.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/cm_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/cm_utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/collection/CollectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/collection/CollectionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/collection/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/collection/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExcelTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExternalWarehousePackageErrorRateDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/excel/ExternalWarehousePackageErrorRateDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataPermVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataPermVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataShareSkuPermEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/DataShareSkuPermEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/FieldModify.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/FieldModify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/TestJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/TestJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/json/json.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/json/json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/lambda/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/lambda/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/string/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/string/_ToUpperChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/string/_ToUpperChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/time/timeStampUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/time/timeStampUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Pojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/TodoTaskTypeViewTypeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/TodoTaskTypeViewTypeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/ValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/ValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/src/main/java/validation/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/src/main/java/validation/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/collection/CollectionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/collection/CollectionUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597654000711.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597654692730.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597655162291.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597655894946.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/horizontalFill1597655927312.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597646969285.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597647178433.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597647218144.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648410119.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648649294.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648758300.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597648837217.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597649963488.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597650072093.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597650149972.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597651121544.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597652233625.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597652326065.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1597652544957.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249518321.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249627821.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249932106.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1598249968975.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845117217.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845296349.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845331134.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1600845364730.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/simpleWrite1602227793778.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/document/excel/testDynamicRowExcel1600830332639.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExcelTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExcelTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExternalWarehousePackageErrorRateDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/excel/ExternalWarehousePackageErrorRateDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/string/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/string/StringTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/string/_ToUpperChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/string/_ToUpperChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cm_utils/target/classes/time/timeStampUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/cm_utils/target/classes/time/timeStampUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/my_common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/my_common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/src/main/java/enums/StatusCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/src/main/java/enums/StatusCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/target/classes/enums/StatusCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/target/classes/enums/StatusCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my_common/target/my_common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/SimpleEventDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/SimpleEventDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/ValidationTestPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/ValidationTestPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/ValidationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/ValidationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/ConsumerEventHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/ConsumerEventHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/PublishEventHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/event/PublishEventHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/mq/activeMq/ActiveMQProduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/AccountSerice.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/AccountSerice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/TestExceptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/TestExceptionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/serviceImpl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/service/serviceImpl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/generate/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_springboot/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/my_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/my_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/file/stream/stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/file/stream/stream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/redis/JedisConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/redis/JedisConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/reflect/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/reflect/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/test/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办2.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/resources/同舟待办/同舟待办2.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/META-INF/my_study.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/file/stream/stream.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/file/stream/stream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/file/stream/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/file/stream/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限控制流.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/project/plant_uml/同舟公告栏/数据共享二期_权限流图.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/redis/JedisConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/redis/JedisConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/test/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_study/target/classes/同舟待办/同舟待办.puml" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/target/classes/同舟待办/同舟待办.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/project_seckill_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/META-INF/project_seckill_model.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/ItemKillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/ItemKillMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_model/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/RedissonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/config/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/KillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/KillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/KillDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/KillDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/MailDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/dto/MailDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IKillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/IKillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/CustomRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/server/impl/KillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/RandomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/SnowFlake.java" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/java/mystudy/project_seckill_server/utils/SnowFlake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project_seckill_server/src/main/webapp/WEB-INF/views/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/my_springboot/target/" />
     <ignored path="$PROJECT_DIR$/my_study/target/" />
@@ -222,12 +50,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="922" column="28" lean-forward="true" selection-start-line="922" selection-start-column="28" selection-end-line="922" selection-end-column="28" />
+            <state relative-caret-position="62">
+              <caret line="1308" column="20" lean-forward="true" selection-start-line="1308" selection-start-column="20" selection-end-line="1308" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#17643#17644#0" expanded="true" />
-                <element signature="e#17701#17702#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -254,9 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>refresh</find>
-      <find>Option</find>
-      <find>web</find>
       <find>invokeAndHanldle</find>
       <find>invokeAndHandle</find>
       <find>invokeForRequest</find>
@@ -284,6 +107,9 @@
       <find>(((())))</find>
       <find>merge</find>
       <find>test.</find>
+      <find>reverseWords</find>
+      <find>add</find>
+      <find>threeSum</find>
     </findStrings>
     <replaceStrings>
       <replace>model.entity.ItemKillSuccess</replace>
@@ -319,19 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my_springboot/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/A.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/B.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/MySpringbootApplication.java" />
-        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P1TwoSum.java" />
-        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P2AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/test/circularDependency/circularDependency.java" />
-        <option value="$PROJECT_DIR$/cm_utils/src/main/java/collection/Test.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/TestException.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/my_study/src/main/java/redis/JedisConnection.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/configBean/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/bean/pojo/Comment.java" />
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/entity/Comment.java" />
         <option value="$PROJECT_DIR$/my_springboot/src/main/java/com/study/my_springboot/dao/CommentRepository.java" />
@@ -353,7 +166,6 @@
         <option value="$PROJECT_DIR$/cm_utils/src/main/java/string/_ToUpperChar.java" />
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P12IntegerToRoman.java" />
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P13RomanToInteger.java" />
-        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P15ThreeSum.java" />
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P17LetterCombinationsOfAPhoneNumber.java" />
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P16ThreeSumClosest.java" />
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P18FourSum.java" />
@@ -369,7 +181,21 @@
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P14LongestCommonPrefix.java" />
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P567PermutationInString.java" />
         <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P43MultiplyStrings.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P151ReverseWordsInAString.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P71SimplifyPath.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P93RestoreIpAddresses.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P15ThreeSum.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P695MaxAreaOfIsland.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P33SearchInRotatedSortedArray.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P674LongestContinuousIncreasingSubsequence.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P215KthLargestElementInAnArray.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P128LongestConsecutiveSequence.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P60PermutationSequence.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P56MergeIntervals.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P206ReverseLinkedList.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P42TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java" />
+        <option value="/var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P142LinkedListCycleIi.java" />
       </list>
     </option>
   </component>
@@ -397,8 +223,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="309" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1194" />
+    <option name="y" value="198" />
     <option name="width" value="1194" />
     <option name="height" value="811" />
   </component>
@@ -453,6 +280,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="cm_utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -516,7 +350,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620974422739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621317407129" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -570,8 +404,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test.testMultiply">
-    <configuration name="test.testGenerateParenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.test.testGetPermutation">
+    <configuration name="test.testFindKthLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_study" />
       <extension name="coverage">
         <pattern>
@@ -581,7 +415,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.leetcode" />
       <option name="MAIN_CLASS_NAME" value="test.leetcode.test" />
-      <option name="METHOD_NAME" value="testGenerateParenthesis" />
+      <option name="METHOD_NAME" value="testFindKthLargest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testGetPermutation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="test.leetcode.test" />
+      <option name="METHOD_NAME" value="testGetPermutation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -603,7 +453,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testReverseKGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my_study" />
       <extension name="coverage">
         <pattern>
@@ -613,39 +463,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.leetcode" />
       <option name="MAIN_CLASS_NAME" value="test.leetcode.test" />
-      <option name="METHOD_NAME" value="testReverseKGroup" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="timeStampUtil.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cm_utils" />
+    <configuration name="test.testThreeSum2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="time.*" />
+          <option name="PATTERN" value="test.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="time" />
-      <option name="MAIN_CLASS_NAME" value="time.timeStampUtil" />
-      <option name="METHOD_NAME" value="test5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="timeStampUtil.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cm_utils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="time" />
-      <option name="MAIN_CLASS_NAME" value="time.timeStampUtil" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="test.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="test.leetcode.test" />
+      <option name="METHOD_NAME" value="testThreeSum2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -675,22 +509,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.timeStampUtil.test5" />
-      <item itemvalue="JUnit.timeStampUtil.test6" />
-      <item itemvalue="JUnit.test.testGenerateParenthesis" />
-      <item itemvalue="JUnit.test.testReverseKGroup" />
       <item itemvalue="JUnit.test.testMultiply" />
+      <item itemvalue="JUnit.test.testThreeSum2" />
+      <item itemvalue="JUnit.test.testSearch" />
+      <item itemvalue="JUnit.test.testFindKthLargest" />
+      <item itemvalue="JUnit.test.testGetPermutation" />
       <item itemvalue="Spring Boot.MainApplication" />
       <item itemvalue="Spring Boot.MySpringbootApplication" />
       <item itemvalue="Spring Boot.ProjectSeckillServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test.testGetPermutation" />
+        <item itemvalue="JUnit.test.testFindKthLargest" />
+        <item itemvalue="JUnit.test.testSearch" />
+        <item itemvalue="JUnit.test.testThreeSum2" />
         <item itemvalue="JUnit.test.testMultiply" />
-        <item itemvalue="JUnit.test.testReverseKGroup" />
-        <item itemvalue="JUnit.test.testGenerateParenthesis" />
-        <item itemvalue="JUnit.timeStampUtil.test5" />
-        <item itemvalue="JUnit.timeStampUtil.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -793,46 +627,48 @@
       <workItem from="1620612279936" duration="20500000" />
       <workItem from="1620653875669" duration="7293000" />
       <workItem from="1620871723725" duration="5439000" />
-      <workItem from="1620955539837" duration="3159000" />
-      <workItem from="1621254741266" duration="2981000" />
-      <workItem from="1621346241575" duration="638000" />
+      <workItem from="1620956471543" duration="817000" />
+      <workItem from="1620987449239" duration="6000" />
+      <workItem from="1621062262103" duration="29736000" />
+      <workItem from="1621215417647" duration="16049000" />
+      <workItem from="1621302851279" duration="3431000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_testMultiply - 2021.05.13 at 10h 54m 56s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 10h 37m 53s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.13 at 10h 58m 13s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 10h 39m 02s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.13 at 11h 03m 45s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 10h 39m 40s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.13 at 11h 06m 52s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 10h 40m 48s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.13 at 11h 17m 31s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 10h 45m 13s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.13 at 11h 18m 37s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 10h 45m 52s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.13 at 11h 18m 41s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 10h 59m 18s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.13 at 11h 19m 43s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 11h 02m 04s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.14 at 09h 32m 53s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 11h 02m 58s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testMultiply - 2021.05.14 at 09h 34m 20s.xml">
-      <configuration name="test.testMultiply" configurationId="JUnit" />
+    <history-entry file="test_testGetPermutation - 2021.05.17 at 11h 03m 03s.xml">
+      <configuration name="test.testGetPermutation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="621740000" />
+    <option name="totallyTimeSpent" value="665001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -844,9 +680,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1194" y="198" width="1194" height="811" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58110017" visible="true" weight="0.16809729" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.58110017" visible="true" weight="0.20833333" />
       <window_info id="Structure" order="1" sideWeight="0.3018868" side_tool="true" weight="0.20914286" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -856,16 +693,16 @@
       <window_info id="Web" order="7" sideWeight="0.41889986" side_tool="true" weight="0.21142857" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49885714" weight="0.2733051" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.528" weight="0.29675812" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49485713" weight="0.20199502" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5182292" weight="0.21661721" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4861111" weight="0.3783032" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
       <window_info active="true" anchor="bottom" id="FindBugs-IDEA" order="7" visible="true" weight="0.4361905" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32911393" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.51287556" visible="true" weight="0.31566265" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4982639" visible="true" weight="0.17385258" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.48712447" side_tool="true" weight="0.31566265" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5017361" side_tool="true" weight="0.17385258" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49885714" weight="0.32388663" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -884,7 +721,7 @@
       <window_info anchor="right" id="Bean Validation" order="11" />
       <window_info anchor="right" id="Coverage" order="12" sideWeight="0.5005258" side_tool="true" weight="0.08285714" />
       <window_info anchor="right" id="SciView" order="13" weight="0.32951945" />
-      <window_info anchor="right" id="leetcode" order="14" sideWeight="0.50095236" side_tool="true" visible="true" weight="0.19527897" />
+      <window_info anchor="right" id="leetcode" order="14" sideWeight="0.50095236" side_tool="true" weight="0.1657986" />
       <window_info anchor="right" id="Word Book" order="15" side_tool="true" weight="0.3297143" />
       <window_info anchor="right" id="Translation Assistant" order="16" visible="true" weight="0.32951945" />
     </layout>
@@ -990,15 +827,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java</url>
-          <line>58</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java</url>
-          <line>161</line>
+          <line>164</line>
           <properties />
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java</url>
+          <line>889</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java</url>
+          <line>956</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java</url>
+          <line>898</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P42TrappingRainWater.java</url>
+          <properties />
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE-sources.jar!/org/springframework/web/method/support/HandlerMethodArgumentResolver.java</url>
@@ -1016,6 +876,10 @@
           </properties>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="84" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1032,6 +896,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>right==9</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>right==10</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>objects.size()==1</expression-string>
         <language-id>JAVA</language-id>
@@ -1086,110 +960,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4335">
-          <caret line="268" column="28" selection-start-line="268" selection-start-column="28" selection-end-line="268" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zheng-shu-zhuan-luo-ma-shu-zi-by-leetcode.md" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P13RomanToInteger.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P15ThreeSum.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/dian-hua-hao-ma-de-zi-mu-zu-he-by-leetcode-solutio.md" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/san-shu-zhi-he-tui-dao-si-shu-zhi-he-cha-9au1.md" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/si-shu-zhi-he-by-leetcode-solution.md" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-all/5.15.9/activemq-all-5.15.9-sources.jar!/org/apache/activemq/store/kahadb/disk/index/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P16ThreeSumClosest.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P20ValidParentheses.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P21MergeTwoSortedLists.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P19RemoveNthNodeFromEndOfList.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P18FourSum.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P17LetterCombinationsOfAPhoneNumber.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/gua-hao-sheng-cheng-by-leetcode-solution.md" />
-    <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/json/json.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="181" column="42" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
-          <folding>
-            <element signature="e#2838#2839#0" expanded="true" />
-            <element signature="e#2872#2873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="323" column="59" lean-forward="true" selection-start-line="323" selection-start-column="59" selection-end-line="323" selection-end-column="59" />
-          <folding>
-            <element signature="e#12107#12108#0" expanded="true" />
-            <element signature="e#12147#12148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/he-bing-kge-pai-xu-lian-biao-by-leetcode-solutio-2.md" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="2670" column="74" lean-forward="true" selection-start-line="2670" selection-start-column="74" selection-end-line="2670" selection-end-column="74" />
-          <folding>
-            <element signature="e#119914#119915#0" expanded="true" />
-            <element signature="e#119971#119972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P24SwapNodesInPairs.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P23MergeKSortedLists.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="325" column="62" lean-forward="true" selection-start-line="325" selection-start-column="62" selection-end-line="325" selection-end-column="62" />
-          <folding>
-            <element signature="e#12158#12159#0" expanded="true" />
-            <element signature="e#12189#12190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="115" column="12" lean-forward="true" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm_utils/src/main/java/time/timeStampUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/liang-liang-jiao-huan-lian-biao-zhong-de-jie-di-91.md" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P22GenerateParentheses.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/k-ge-yi-zu-fan-zhuan-lian-biao-by-leetcode-solutio.md" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P25ReverseNodesInKGroup.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P26RemoveDuplicatesFromSortedArray.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P151ReverseWordsInAString.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P71SimplifyPath.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P93RestoreIpAddresses.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P155MinStack.java" />
     <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2.md" />
     <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zui-chang-gong-gong-qian-zhui-by-leetcode-solution.md" />
     <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P3LongestSubstringWithoutRepeatingCharacters.java" />
@@ -1203,17 +973,287 @@
     <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zi-fu-chuan-de-pai-lie-by-leetcode-solut-7k7u.md" />
     <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P14LongestCommonPrefix.java" />
     <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P557ReverseWordsInAStringIii.java" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zi-fu-chuan-xiang-cheng-by-leetcode-solution.md" />
-    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P43MultiplyStrings.java" />
     <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P567PermutationInString.java" />
-    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java">
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P43MultiplyStrings.java" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zi-fu-chuan-xiang-cheng-by-leetcode-solution.md" />
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/fan-zhuan-zi-fu-chuan-li-de-dan-ci-by-leetcode-sol.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P151ReverseWordsInAString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="922" column="28" lean-forward="true" selection-start-line="922" selection-start-column="28" selection-end-line="922" selection-end-column="28" />
+        <state relative-caret-position="-75">
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#1232#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P71SimplifyPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#1314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/StringJoiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="184" column="17" selection-start-line="184" selection-start-column="17" selection-end-line="184" selection-end-column="17" />
+          <folding>
+            <element signature="e#3306#3307#0" expanded="true" />
+            <element signature="e#3345#3346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="2497" column="25" selection-start-line="2497" selection-start-column="25" selection-end-line="2497" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="582" selection-start-line="582" selection-end-line="582" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P33SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P15ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/zui-chang-lian-xu-xu-lie-by-leetcode-solution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/di-kge-pai-lie-by-leetcode-solution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P129SumRootToLeafNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P128LongestConsecutiveSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P215KthLargestElementInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#17643#17644#0" expanded="true" />
-            <element signature="e#17701#17702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P674LongestContinuousIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="248" column="12" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="141" column="57" selection-start-line="141" selection-start-column="57" selection-end-line="141" selection-end-column="57" />
+          <folding>
+            <element signature="e#5709#5710#0" expanded="true" />
+            <element signature="e#5740#5741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P60PermutationSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P93RestoreIpAddresses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="95" column="42" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P695MaxAreaOfIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/sheng-fen-shu-liang-by-leetcode-solution-eyk0.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P21MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P42TrappingRainWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P56MergeIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P547NumberOfProvinces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P2AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#1201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/huan-xing-lian-biao-ii-by-leetcode-solution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P142LinkedListCycleIi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="83" column="28" lean-forward="true" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P206ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/doc/he-bing-qu-jian-by-leetcode-solution.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/tx/pqnv1qc90879pzlsslys_h480000gn/T/leetcode/editor/cn/P160IntersectionOfTwoLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_study/src/main/java/test/leetcode/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="1308" column="20" lean-forward="true" selection-start-line="1308" selection-start-column="20" selection-end-line="1308" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
