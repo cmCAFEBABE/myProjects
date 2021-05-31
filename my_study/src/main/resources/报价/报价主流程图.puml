@@ -1,0 +1,9 @@
+@startuml
+
+商品中心 --> 泰迪: 商品绑仓数据
+泰迪 --> 商品中心: 商品绑仓数据
+商品中心 -> 工单: 报价数据（skuId、供应商、仓库等）
+商品中心 -> 协同: 报价数据（skuId、供应商、仓库等）
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
